@@ -26,11 +26,11 @@ Please read file "AUTHORS" for list of contributors.
 4. Examples
 ============
 
-<img src="https://github.com/StefanPeev/Libra-Sans/master/images/LibraSans_Russian.jpg" />
+<img src="https://raw.githubusercontent.com/StefanPeev/Libra-Sans/master/images/LibraSans_Russian.jpg" />
 
 <img src="https://github.com/StefanPeev/Libra-Sans/blob/master/images/LibraSans_Bulgarian.jpg" />
 
-<img src="https://github.com/StefanPeev/Libra-Sans/master/images/LibraSans_Serbian.jpg" />
+<img src="https://raw.githubusercontent.com/StefanPeev/Libra-Sans/master/images/LibraSans_Serbian.jpg" />
 
 <img src="https://raw.githubusercontent.com/StefanPeev/Libra-Sans/master/images/LibraSans_Macedonian.jpg" />
 
