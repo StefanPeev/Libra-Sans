@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFB22" format="1">
+  <advance width="582"/>
+  <unicode hex="FB22"/>
+  <outline>
+    <contour>
+      <point x="525" y="488" type="line"/>
+      <point x="430" y="0" type="line"/>
+      <point x="298" y="0" type="line"/>
+      <point x="393" y="488" type="line"/>
+      <point x="65" y="488" type="line"/>
+      <point x="88" y="606" type="line"/>
+      <point x="623" y="606" type="line"/>
+      <point x="600" y="488" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>488</integer>
+            <key>width</key>
+            <integer>118</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>65</integer>
+            <key>width</key>
+            <integer>558</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

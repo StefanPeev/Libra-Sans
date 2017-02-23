@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>familyName</key>
+    <string>1702230754-Libra Sans</string>
+    <key>styleName</key>
+    <string>Bold</string>
+    <key>styleMapFamilyName</key>
+    <string>Libra Sans Bold</string>
+    <key>styleMapStyleName</key>
+    <string>bold</string>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>2</integer>
+    <key>copyright</key>
+    <string>Copyright (c) 2017 Context Ltd. with Reserved Font Name Libra Sans
+Copyright (c) 2012 Red Hat, Inc. with Reserved Font Name Liberation.
+Copyright (c) 2010 Ascender Corporation. Digitized data copyright (c) 2010 Google Corporation with Reserved Font Name Arimo, Tinos and Cousine. 
+</string>
+    <key>trademark</key>
+    <string>Please refer to the Copyright section for the font trademark attribution notices.</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>capHeight</key>
+    <integer>688</integer>
+    <key>xHeight</key>
+    <integer>528</integer>
+    <key>ascender</key>
+    <integer>800</integer>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>italicAngle</key>
+    <real>0</real>
+    <key>note</key>
+    <string></string>
+    <key>openTypeHeadCreated</key>
+    <string>2015/01/31 16:09:32</string>
+    <key>openTypeHheaAscender</key>
+    <integer>896</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-222</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>26</integer>
+    <key>openTypeNameManufacturer</key>
+    <string>Context Ltd</string>
+    <key>openTypeNameLicense</key>
+    <string>Copyright (c) 2017, Stefan Peev, Context Ltd (&lt;http://www.contextbg.net|context.bg@gmail.com&gt;),
+with Reserved Font Name Libra Sans.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded, 
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION &amp; CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>http://scripts.sil.org/OFL</string>
+    <key>openTypeNameVersion</key>
+    <string>Version 1.002</string>
+    <key>openTypeNameUniqueID</key>
+    <string>ContextLtd: Libra Sans Bold: 2017</string>
+    <key>openTypeNameDescription</key>
+    <string>Libra Sans, created by Context Ltd., is based on Liberation Sans, which on its turn is based on Arimo, designed by Steve Matteson as an innovative, refreshing sans serif design that is metrically compatible with Arial. Arimo offers improved on-screen readability characteristics and the pan-European WGL character set and solves the needs of developers looking for width-compatible fonts to address document portability across platforms. The new moment in Libra Sans is that it includes as local features in Open Type the so-called "Bulgarian" letterform model, which has been proposed by a group of Bulgarian designers in the 1960s. Liberation Sans is a free-to-use non-commercial font released under the SIL Open Font License (OFL). Libra Sans is a free-to-use non-commercial font derivated from Liberation Sans by Stefan Peev (Context Ltd. / http://www.contextbg.net) and released under the SIL Open Font License (OFL).</string>
+    <key>openTypeNamePreferredFamilyName</key>
+    <string>Libra Sans</string>
+    <key>openTypeNamePreferredSubfamilyName</key>
+    <string>Bold</string>
+    <key>openTypeNameCompatibleFullName</key>
+    <string>Libra Sans Bold</string>
+    <key>openTypeOS2Panose</key>
+    <array>
+      <integer>2</integer>
+      <integer>11</integer>
+      <integer>7</integer>
+      <integer>4</integer>
+      <integer>2</integer>
+      <integer>2</integer>
+      <integer>2</integer>
+      <integer>2</integer>
+      <integer>2</integer>
+      <integer>4</integer>
+    </array>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WeightClass</key>
+    <integer>700</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>CNTX</string>
+    <key>openTypeOS2FamilyClass</key>
+    <array>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
+    <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>725</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-208</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>51</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>896</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>222</integer>
+    <key>openTypeOS2SubscriptXSize</key>
+    <integer>650</integer>
+    <key>openTypeOS2SubscriptYSize</key>
+    <integer>600</integer>
+    <key>openTypeOS2SubscriptXOffset</key>
+    <integer>0</integer>
+    <key>openTypeOS2SubscriptYOffset</key>
+    <integer>75</integer>
+    <key>openTypeOS2SuperscriptXSize</key>
+    <integer>650</integer>
+    <key>openTypeOS2SuperscriptYSize</key>
+    <integer>600</integer>
+    <key>openTypeOS2SuperscriptXOffset</key>
+    <integer>0</integer>
+    <key>openTypeOS2SuperscriptYOffset</key>
+    <integer>350</integer>
+    <key>openTypeOS2StrikeoutSize</key>
+    <integer>105</integer>
+    <key>openTypeOS2StrikeoutPosition</key>
+    <integer>316</integer>
+    <key>openTypeOS2UnicodeRanges</key>
+    <array>
+      <integer>0</integer>
+      <integer>1</integer>
+      <integer>2</integer>
+      <integer>3</integer>
+      <integer>4</integer>
+      <integer>5</integer>
+      <integer>6</integer>
+      <integer>7</integer>
+      <integer>9</integer>
+      <integer>11</integer>
+      <integer>29</integer>
+      <integer>30</integer>
+      <integer>31</integer>
+      <integer>32</integer>
+      <integer>33</integer>
+      <integer>34</integer>
+      <integer>35</integer>
+      <integer>36</integer>
+      <integer>37</integer>
+      <integer>38</integer>
+      <integer>39</integer>
+      <integer>43</integer>
+      <integer>44</integer>
+      <integer>45</integer>
+      <integer>46</integer>
+      <integer>60</integer>
+      <integer>62</integer>
+      <integer>64</integer>
+      <integer>69</integer>
+    </array>
+    <key>openTypeOS2CodePageRanges</key>
+    <array>
+      <integer>0</integer>
+      <integer>1</integer>
+      <integer>2</integer>
+      <integer>3</integer>
+      <integer>4</integer>
+      <integer>5</integer>
+      <integer>7</integer>
+      <integer>8</integer>
+      <integer>29</integer>
+      <integer>30</integer>
+    </array>
+    <key>postscriptFontName</key>
+    <string>LibraSans-Bold</string>
+    <key>postscriptFullName</key>
+    <string>LibraSans-Bold</string>
+    <key>postscriptWeightName</key>
+    <string>Bold</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>105</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-158</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-11</integer>
+      <integer>0</integer>
+      <integer>528</integer>
+      <integer>539</integer>
+      <integer>688</integer>
+      <integer>698</integer>
+    </array>
+    <key>postscriptOtherBlues</key>
+    <array>
+      <integer>-212</integer>
+      <integer>-208</integer>
+    </array>
+    <key>postscriptStemSnapH</key>
+    <array>
+      <integer>71</integer>
+      <integer>82</integer>
+      <integer>94</integer>
+      <integer>101</integer>
+      <integer>111</integer>
+      <integer>119</integer>
+    </array>
+    <key>postscriptStemSnapV</key>
+    <array>
+      <integer>66</integer>
+      <integer>71</integer>
+      <integer>128</integer>
+      <integer>132</integer>
+      <integer>137</integer>
+      <integer>144</integer>
+    </array>
+    <key>postscriptBlueShift</key>
+    <integer>4</integer>
+    <key>postscriptForceBold</key>
+    <true/>
+  </dict>
+</plist>

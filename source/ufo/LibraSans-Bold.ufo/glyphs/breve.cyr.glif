@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breve.cyr" format="1">
+  <advance width="333"/>
+  <outline>
+    <contour>
+      <point x="166" y="578" type="curve" smooth="yes"/>
+      <point x="35" y="578"/>
+      <point x="-28" y="629"/>
+      <point x="-33" y="744" type="curve"/>
+      <point x="77" y="744" type="line"/>
+      <point x="80" y="679"/>
+      <point x="110" y="647"/>
+      <point x="166" y="647" type="curve" smooth="yes"/>
+      <point x="222" y="647"/>
+      <point x="252" y="679"/>
+      <point x="255" y="744" type="curve"/>
+      <point x="365" y="744" type="line"/>
+      <point x="360" y="629"/>
+      <point x="297" y="578"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>578</integer>
+            <key>width</key>
+            <integer>69</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-33</integer>
+            <key>width</key>
+            <integer>110</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>255</integer>
+            <key>width</key>
+            <integer>110</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

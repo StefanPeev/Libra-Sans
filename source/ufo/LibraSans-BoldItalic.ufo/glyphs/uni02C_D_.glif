@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni02CD" format="1">
+  <advance width="333"/>
+  <unicode hex="02CD"/>
+  <outline>
+    <contour>
+      <point x="-61" y="-160" type="line"/>
+      <point x="-44" y="-78" type="line"/>
+      <point x="254" y="-78" type="line"/>
+      <point x="238" y="-160" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-160</integer>
+            <key>width</key>
+            <integer>82</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-61</integer>
+            <key>width</key>
+            <integer>315</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

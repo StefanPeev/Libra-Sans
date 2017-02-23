@@ -1,0 +1,2593 @@
+languagesystem DFLT dflt;
+languagesystem cyrl BGR ;
+languagesystem cyrl dflt;
+languagesystem cyrl MKD ;
+languagesystem cyrl SRB ;
+languagesystem grek dflt;
+languagesystem hebr dflt;
+languagesystem latn dflt;
+
+
+# GSUB 
+
+
+lookup ss01StyleSet1lookup10 {
+  lookupflag 0;
+    sub \uni0410 by \uni0410.loclBGR ;
+    sub \uni0411 by \uni0411.loclBGR ;
+    sub \uni0412 by \uni0412.loclBGR ;
+    sub \uni0413 by \uni0413.loclBGR ;
+    sub \uni0414 by \uni0414.loclBGR ;
+    sub \uni0415 by \uni0415.loclBGR ;
+    sub \uni0416 by \uni0416.loclBGR ;
+    sub \uni0417 by \uni0417.loclBGR ;
+    sub \uni0418 by \uni0418.loclBGR ;
+    sub \uni0419 by \uni0419.loclBGR ;
+    sub \uni041A by \uni041A.loclBGR ;
+    sub \uni041B by \uni041B.loclBGR ;
+    sub \uni041C by \uni041C.loclBGR ;
+    sub \uni041D by \uni041D.loclBGR ;
+    sub \uni041E by \uni041E.loclBGR ;
+    sub \uni041F by \uni041F.loclBGR ;
+    sub \uni0420 by \uni0420.loclBGR ;
+    sub \uni0421 by \uni0421.loclBGR ;
+    sub \uni0422 by \uni0422.loclBGR ;
+    sub \uni0423 by \uni0423.loclBGR ;
+    sub \uni0424 by \uni0424.loclBGR ;
+    sub \uni0425 by \uni0425.loclBGR ;
+    sub \uni0426 by \uni0426.loclBGR ;
+    sub \uni0427 by \uni0427.loclBGR ;
+    sub \uni0428 by \uni0428.loclBGR ;
+    sub \uni0429 by \uni0429.loclBGR ;
+    sub \uni042A by \uni042A.loclBGR ;
+    sub \uni042B by \uni042B.loclBGR ;
+    sub \uni042C by \uni042C.loclBGR ;
+    sub \uni042D by \uni042D.loclBGR ;
+    sub \uni042E by \uni042E.loclBGR ;
+    sub \uni042F by \uni042F.loclBGR ;
+    sub \uni0430 by \uni0430.loclBGR ;
+    sub \uni0431 by \uni0431.loclBGR ;
+    sub \uni0432 by \uni0432.loclBGR ;
+    sub \uni0433 by \uni0433.loclBGR ;
+    sub \uni0434 by \uni0434.loclBGR ;
+    sub \uni0435 by \uni0435.loclBGR ;
+    sub \uni0436 by \uni0436.loclBGR ;
+    sub \uni0437 by \uni0437.loclBGR ;
+    sub \uni0438 by \uni0438.loclBGR ;
+    sub \uni0439 by \uni0439.loclBGR ;
+    sub \uni043A by \uni043A.loclBGR ;
+    sub \uni043B by \uni043B.loclBGR ;
+    sub \uni043C by \uni043C.loclBGR ;
+    sub \uni043D by \uni043D.loclBGR ;
+    sub \uni043E by \uni043E.loclBGR ;
+    sub \uni043F by \uni043F.loclBGR ;
+    sub \uni0440 by \uni0440.loclBGR ;
+    sub \uni0441 by \uni0441.loclBGR ;
+    sub \uni0442 by \uni0442.loclBGR ;
+    sub \uni0443 by \uni0443.loclBGR ;
+    sub \uni0444 by \uni0444.loclBGR ;
+    sub \uni0445 by \uni0445.loclBGR ;
+    sub \uni0446 by \uni0446.loclBGR ;
+    sub \uni0447 by \uni0447.loclBGR ;
+    sub \uni0448 by \uni0448.loclBGR ;
+    sub \uni0449 by \uni0449.loclBGR ;
+    sub \uni044A by \uni044A.loclBGR ;
+    sub \uni044B by \uni044B.loclBGR ;
+    sub \uni044C by \uni044C.loclBGR ;
+    sub \uni044D by \uni044D.loclBGR ;
+    sub \uni044E by \uni044E.loclBGR ;
+    sub \uni044F by \uni044F.loclBGR ;
+    sub \uni045D by \uni045D.loclBGR ;
+} ss01StyleSet1lookup10;
+
+lookup ss02StyleSet2lookup11 {
+  lookupflag 0;
+    sub \uni0431 by \uni0431.loclSRB ;
+} ss02StyleSet2lookup11;
+
+lookup ss03StyleSet3lookup12 {
+  lookupflag 0;
+    sub \uni0431 by \uni0431.loclSRB ;
+} ss03StyleSet3lookup12;
+
+lookup loclLocalizedFormsinCyrilliclookup9 {
+  lookupflag 0;
+    sub \uni0410 by \uni0410.loclBGR ;
+    sub \uni0411 by \uni0411.loclBGR ;
+    sub \uni0412 by \uni0412.loclBGR ;
+    sub \uni0413 by \uni0413.loclBGR ;
+    sub \uni0414 by \uni0414.loclBGR ;
+    sub \uni0415 by \uni0415.loclBGR ;
+    sub \uni0416 by \uni0416.loclBGR ;
+    sub \uni0417 by \uni0417.loclBGR ;
+    sub \uni0418 by \uni0418.loclBGR ;
+    sub \uni0419 by \uni0419.loclBGR ;
+    sub \uni041A by \uni041A.loclBGR ;
+    sub \uni041B by \uni041B.loclBGR ;
+    sub \uni041C by \uni041C.loclBGR ;
+    sub \uni041D by \uni041D.loclBGR ;
+    sub \uni041E by \uni041E.loclBGR ;
+    sub \uni041F by \uni041F.loclBGR ;
+    sub \uni0420 by \uni0420.loclBGR ;
+    sub \uni0421 by \uni0421.loclBGR ;
+    sub \uni0422 by \uni0422.loclBGR ;
+    sub \uni0423 by \uni0423.loclBGR ;
+    sub \uni0424 by \uni0424.loclBGR ;
+    sub \uni0425 by \uni0425.loclBGR ;
+    sub \uni0426 by \uni0426.loclBGR ;
+    sub \uni0427 by \uni0427.loclBGR ;
+    sub \uni0428 by \uni0428.loclBGR ;
+    sub \uni0429 by \uni0429.loclBGR ;
+    sub \uni042A by \uni042A.loclBGR ;
+    sub \uni042B by \uni042B.loclBGR ;
+    sub \uni042C by \uni042C.loclBGR ;
+    sub \uni042D by \uni042D.loclBGR ;
+    sub \uni042E by \uni042E.loclBGR ;
+    sub \uni042F by \uni042F.loclBGR ;
+    sub \uni0430 by \uni0430.loclBGR ;
+    sub \uni0431 by \uni0431.loclBGR ;
+    sub \uni0432 by \uni0432.loclBGR ;
+    sub \uni0433 by \uni0433.loclBGR ;
+    sub \uni0434 by \uni0434.loclBGR ;
+    sub \uni0435 by \uni0435.loclBGR ;
+    sub \uni0436 by \uni0436.loclBGR ;
+    sub \uni0437 by \uni0437.loclBGR ;
+    sub \uni0438 by \uni0438.loclBGR ;
+    sub \uni0439 by \uni0439.loclBGR ;
+    sub \uni043A by \uni043A.loclBGR ;
+    sub \uni043B by \uni043B.loclBGR ;
+    sub \uni043C by \uni043C.loclBGR ;
+    sub \uni043D by \uni043D.loclBGR ;
+    sub \uni043E by \uni043E.loclBGR ;
+    sub \uni043F by \uni043F.loclBGR ;
+    sub \uni0440 by \uni0440.loclBGR ;
+    sub \uni0441 by \uni0441.loclBGR ;
+    sub \uni0442 by \uni0442.loclBGR ;
+    sub \uni0443 by \uni0443.loclBGR ;
+    sub \uni0444 by \uni0444.loclBGR ;
+    sub \uni0445 by \uni0445.loclBGR ;
+    sub \uni0446 by \uni0446.loclBGR ;
+    sub \uni0447 by \uni0447.loclBGR ;
+    sub \uni0448 by \uni0448.loclBGR ;
+    sub \uni0449 by \uni0449.loclBGR ;
+    sub \uni044A by \uni044A.loclBGR ;
+    sub \uni044B by \uni044B.loclBGR ;
+    sub \uni044C by \uni044C.loclBGR ;
+    sub \uni044D by \uni044D.loclBGR ;
+    sub \uni044E by \uni044E.loclBGR ;
+    sub \uni044F by \uni044F.loclBGR ;
+    sub \uni045D by \uni045D.loclBGR ;
+} loclLocalizedFormsinCyrilliclookup9;
+
+lookup aaltAccessAllAlternateslookup0 {
+  lookupflag 0;
+    sub \uni0431 from [\uni0431.loclSRB ];
+} aaltAccessAllAlternateslookup0;
+
+lookup loclLocalizedFormsinCyrilliclookup1 {
+  lookupflag 0;
+    sub \uni0431 by \uni0431.loclSRB ;
+} loclLocalizedFormsinCyrilliclookup1;
+
+lookup loclLocalizedFormsinCyrilliclookup2 {
+  lookupflag 0;
+    sub \uni0431 by \uni0431.loclSRB ;
+} loclLocalizedFormsinCyrilliclookup2;
+
+lookup dligDiscretionaryLigaturesinHebrewlookup3 {
+  lookupflag RightToLeft;
+    sub \uni05D0 \uni05DC  by \uniFB4F;
+} dligDiscretionaryLigaturesinHebrewlookup3;
+
+lookup ccmpGlyphCompositionDecompositioninGreeklookup4 {
+  lookupflag 0;
+    sub \uni02E5 \uni02E5 \uni02E6  by \uni02E502E502E6;
+    sub \uni02E5 \uni02E5 \uni02E7  by \uni02E502E502E7;
+    sub \uni02E5 \uni02E5 \uni02E8  by \uni02E502E502E8;
+    sub \uni02E5 \uni02E5 \uni02E9  by \uni02E502E502E9;
+    sub \uni02E5 \uni02E6 \uni02E5  by \uni02E502E602E5;
+    sub \uni02E5 \uni02E6 \uni02E6  by \uni02E502E602E6;
+    sub \uni02E5 \uni02E6 \uni02E7  by \uni02E502E602E7;
+    sub \uni02E5 \uni02E6 \uni02E8  by \uni02E502E602E8;
+    sub \uni02E5 \uni02E6 \uni02E9  by \uni02E502E602E9;
+    sub \uni02E5 \uni02E6  by \uni02E502E6;
+    sub \uni02E5 \uni02E7 \uni02E5  by \uni02E502E702E5;
+    sub \uni02E5 \uni02E7 \uni02E6  by \uni02E502E702E6;
+    sub \uni02E5 \uni02E7 \uni02E7  by \uni02E502E702E7;
+    sub \uni02E5 \uni02E7 \uni02E8  by \uni02E502E702E8;
+    sub \uni02E5 \uni02E7 \uni02E9  by \uni02E502E702E9;
+    sub \uni02E5 \uni02E7  by \uni02E502E7;
+    sub \uni02E5 \uni02E8 \uni02E5  by \uni02E502E802E5;
+    sub \uni02E5 \uni02E8 \uni02E6  by \uni02E502E802E6;
+    sub \uni02E5 \uni02E8 \uni02E7  by \uni02E502E802E7;
+    sub \uni02E5 \uni02E8 \uni02E8  by \uni02E502E802E8;
+    sub \uni02E5 \uni02E8 \uni02E9  by \uni02E502E802E9;
+    sub \uni02E5 \uni02E8  by \uni02E502E8;
+    sub \uni02E5 \uni02E9 \uni02E5  by \uni02E502E902E5;
+    sub \uni02E5 \uni02E9 \uni02E6  by \uni02E502E902E6;
+    sub \uni02E5 \uni02E9 \uni02E7  by \uni02E502E902E7;
+    sub \uni02E5 \uni02E9 \uni02E8  by \uni02E502E902E8;
+    sub \uni02E5 \uni02E9 \uni02E9  by \uni02E502E902E9;
+    sub \uni02E5 \uni02E9  by \uni02E502E9;
+    sub \uni02E6 \uni02E5 \uni02E5  by \uni02E602E502E5;
+    sub \uni02E6 \uni02E5 \uni02E6  by \uni02E602E502E6;
+    sub \uni02E6 \uni02E5 \uni02E7  by \uni02E602E502E7;
+    sub \uni02E6 \uni02E5 \uni02E8  by \uni02E602E502E8;
+    sub \uni02E6 \uni02E5 \uni02E9  by \uni02E602E502E9;
+    sub \uni02E6 \uni02E5  by \uni02E602E5;
+    sub \uni02E6 \uni02E6 \uni02E5  by \uni02E602E602E5;
+    sub \uni02E6 \uni02E6 \uni02E7  by \uni02E602E602E7;
+    sub \uni02E6 \uni02E6 \uni02E8  by \uni02E602E602E8;
+    sub \uni02E6 \uni02E6 \uni02E9  by \uni02E602E602E9;
+    sub \uni02E6 \uni02E7 \uni02E5  by \uni02E602E702E5;
+    sub \uni02E6 \uni02E7 \uni02E6  by \uni02E602E702E6;
+    sub \uni02E6 \uni02E7 \uni02E7  by \uni02E602E702E7;
+    sub \uni02E6 \uni02E7 \uni02E8  by \uni02E602E702E8;
+    sub \uni02E6 \uni02E7 \uni02E9  by \uni02E602E702E9;
+    sub \uni02E6 \uni02E7  by \uni02E602E7;
+    sub \uni02E6 \uni02E8 \uni02E5  by \uni02E602E802E5;
+    sub \uni02E6 \uni02E8 \uni02E6  by \uni02E602E802E6;
+    sub \uni02E6 \uni02E8 \uni02E7  by \uni02E602E802E7;
+    sub \uni02E6 \uni02E8 \uni02E8  by \uni02E602E802E8;
+    sub \uni02E6 \uni02E8 \uni02E9  by \uni02E602E802E9;
+    sub \uni02E6 \uni02E8  by \uni02E602E8;
+    sub \uni02E6 \uni02E9 \uni02E5  by \uni02E602E902E5;
+    sub \uni02E6 \uni02E9 \uni02E6  by \uni02E602E902E6;
+    sub \uni02E6 \uni02E9 \uni02E7  by \uni02E602E902E7;
+    sub \uni02E6 \uni02E9 \uni02E8  by \uni02E602E902E8;
+    sub \uni02E6 \uni02E9 \uni02E9  by \uni02E602E902E9;
+    sub \uni02E6 \uni02E9  by \uni02E602E9;
+    sub \uni02E7 \uni02E5 \uni02E5  by \uni02E702E502E5;
+    sub \uni02E7 \uni02E5 \uni02E6  by \uni02E702E502E6;
+    sub \uni02E7 \uni02E5 \uni02E7  by \uni02E702E502E7;
+    sub \uni02E7 \uni02E5 \uni02E8  by \uni02E702E502E8;
+    sub \uni02E7 \uni02E5 \uni02E9  by \uni02E702E502E9;
+    sub \uni02E7 \uni02E5  by \uni02E702E5;
+    sub \uni02E7 \uni02E6 \uni02E5  by \uni02E702E602E5;
+    sub \uni02E7 \uni02E6 \uni02E6  by \uni02E702E602E6;
+    sub \uni02E7 \uni02E6 \uni02E7  by \uni02E702E602E7;
+    sub \uni02E7 \uni02E6 \uni02E8  by \uni02E702E602E8;
+    sub \uni02E7 \uni02E6 \uni02E9  by \uni02E702E602E9;
+    sub \uni02E7 \uni02E6  by \uni02E702E6;
+    sub \uni02E7 \uni02E7 \uni02E5  by \uni02E702E702E5;
+    sub \uni02E7 \uni02E7 \uni02E6  by \uni02E702E702E6;
+    sub \uni02E7 \uni02E7 \uni02E8  by \uni02E702E702E8;
+    sub \uni02E7 \uni02E7 \uni02E9  by \uni02E702E702E9;
+    sub \uni02E7 \uni02E8 \uni02E5  by \uni02E702E802E5;
+    sub \uni02E7 \uni02E8 \uni02E6  by \uni02E702E802E6;
+    sub \uni02E7 \uni02E8 \uni02E7  by \uni02E702E802E7;
+    sub \uni02E7 \uni02E8 \uni02E8  by \uni02E702E802E8;
+    sub \uni02E7 \uni02E8 \uni02E9  by \uni02E702E802E9;
+    sub \uni02E7 \uni02E8  by \uni02E702E8;
+    sub \uni02E7 \uni02E9 \uni02E5  by \uni02E702E902E5;
+    sub \uni02E7 \uni02E9 \uni02E6  by \uni02E702E902E6;
+    sub \uni02E7 \uni02E9 \uni02E7  by \uni02E702E902E7;
+    sub \uni02E7 \uni02E9 \uni02E8  by \uni02E702E902E8;
+    sub \uni02E7 \uni02E9 \uni02E9  by \uni02E702E902E9;
+    sub \uni02E7 \uni02E9  by \uni02E702E9;
+    sub \uni02E8 \uni02E5 \uni02E5  by \uni02E802E502E5;
+    sub \uni02E8 \uni02E5 \uni02E6  by \uni02E802E502E6;
+    sub \uni02E8 \uni02E5 \uni02E7  by \uni02E802E502E7;
+    sub \uni02E8 \uni02E5 \uni02E8  by \uni02E802E502E8;
+    sub \uni02E8 \uni02E5 \uni02E9  by \uni02E802E502E9;
+    sub \uni02E8 \uni02E5  by \uni02E802E5;
+    sub \uni02E8 \uni02E6 \uni02E5  by \uni02E802E602E5;
+    sub \uni02E8 \uni02E6 \uni02E6  by \uni02E802E602E6;
+    sub \uni02E8 \uni02E6 \uni02E7  by \uni02E802E602E7;
+    sub \uni02E8 \uni02E6 \uni02E8  by \uni02E802E602E8;
+    sub \uni02E8 \uni02E6 \uni02E9  by \uni02E802E602E9;
+    sub \uni02E8 \uni02E6  by \uni02E802E6;
+    sub \uni02E8 \uni02E7 \uni02E5  by \uni02E802E702E5;
+    sub \uni02E8 \uni02E7 \uni02E6  by \uni02E802E702E6;
+    sub \uni02E8 \uni02E7 \uni02E7  by \uni02E802E702E7;
+    sub \uni02E8 \uni02E7 \uni02E8  by \uni02E802E702E8;
+    sub \uni02E8 \uni02E7 \uni02E9  by \uni02E802E702E9;
+    sub \uni02E8 \uni02E7  by \uni02E802E7;
+    sub \uni02E8 \uni02E8 \uni02E5  by \uni02E802E802E5;
+    sub \uni02E8 \uni02E8 \uni02E6  by \uni02E802E802E6;
+    sub \uni02E8 \uni02E8 \uni02E7  by \uni02E802E802E7;
+    sub \uni02E8 \uni02E8 \uni02E9  by \uni02E802E802E9;
+    sub \uni02E8 \uni02E9 \uni02E5  by \uni02E802E902E5;
+    sub \uni02E8 \uni02E9 \uni02E6  by \uni02E802E902E6;
+    sub \uni02E8 \uni02E9 \uni02E7  by \uni02E802E902E7;
+    sub \uni02E8 \uni02E9 \uni02E8  by \uni02E802E902E8;
+    sub \uni02E8 \uni02E9 \uni02E9  by \uni02E802E902E9;
+    sub \uni02E8 \uni02E9  by \uni02E802E9;
+    sub \uni02E9 \uni02E5 \uni02E5  by \uni02E902E502E5;
+    sub \uni02E9 \uni02E5 \uni02E6  by \uni02E902E502E6;
+    sub \uni02E9 \uni02E5 \uni02E7  by \uni02E902E502E7;
+    sub \uni02E9 \uni02E5 \uni02E8  by \uni02E902E502E8;
+    sub \uni02E9 \uni02E5 \uni02E9  by \uni02E902E502E9;
+    sub \uni02E9 \uni02E5  by \uni02E902E5;
+    sub \uni02E9 \uni02E6 \uni02E5  by \uni02E902E602E5;
+    sub \uni02E9 \uni02E6 \uni02E6  by \uni02E902E602E6;
+    sub \uni02E9 \uni02E6 \uni02E7  by \uni02E902E602E7;
+    sub \uni02E9 \uni02E6 \uni02E8  by \uni02E902E602E8;
+    sub \uni02E9 \uni02E6 \uni02E9  by \uni02E902E602E9;
+    sub \uni02E9 \uni02E6  by \uni02E902E6;
+    sub \uni02E9 \uni02E7 \uni02E5  by \uni02E902E702E5;
+    sub \uni02E9 \uni02E7 \uni02E6  by \uni02E902E702E6;
+    sub \uni02E9 \uni02E7 \uni02E7  by \uni02E902E702E7;
+    sub \uni02E9 \uni02E7 \uni02E8  by \uni02E902E702E8;
+    sub \uni02E9 \uni02E7 \uni02E9  by \uni02E902E702E9;
+    sub \uni02E9 \uni02E7  by \uni02E902E7;
+    sub \uni02E9 \uni02E8 \uni02E5  by \uni02E902E802E5;
+    sub \uni02E9 \uni02E8 \uni02E6  by \uni02E902E802E6;
+    sub \uni02E9 \uni02E8 \uni02E7  by \uni02E902E802E7;
+    sub \uni02E9 \uni02E8 \uni02E8  by \uni02E902E802E8;
+    sub \uni02E9 \uni02E8 \uni02E9  by \uni02E902E802E9;
+    sub \uni02E9 \uni02E8  by \uni02E902E8;
+    sub \uni02E9 \uni02E9 \uni02E5  by \uni02E902E902E5;
+    sub \uni02E9 \uni02E9 \uni02E6  by \uni02E902E902E6;
+    sub \uni02E9 \uni02E9 \uni02E7  by \uni02E902E902E7;
+    sub \uni02E9 \uni02E9 \uni02E8  by \uni02E902E902E8;
+} ccmpGlyphCompositionDecompositioninGreeklookup4;
+
+lookup ccmpGlyphCompositionDecompositioninLatinlookup5 {
+  lookupflag 0;
+    sub \uni02E5 \uni02E5 \uni02E6  by \uni02E502E502E6;
+    sub \uni02E5 \uni02E5 \uni02E7  by \uni02E502E502E7;
+    sub \uni02E5 \uni02E5 \uni02E8  by \uni02E502E502E8;
+    sub \uni02E5 \uni02E5 \uni02E9  by \uni02E502E502E9;
+    sub \uni02E5 \uni02E6 \uni02E5  by \uni02E502E602E5;
+    sub \uni02E5 \uni02E6 \uni02E6  by \uni02E502E602E6;
+    sub \uni02E5 \uni02E6 \uni02E7  by \uni02E502E602E7;
+    sub \uni02E5 \uni02E6 \uni02E8  by \uni02E502E602E8;
+    sub \uni02E5 \uni02E6 \uni02E9  by \uni02E502E602E9;
+    sub \uni02E5 \uni02E6  by \uni02E502E6;
+    sub \uni02E5 \uni02E7 \uni02E5  by \uni02E502E702E5;
+    sub \uni02E5 \uni02E7 \uni02E6  by \uni02E502E702E6;
+    sub \uni02E5 \uni02E7 \uni02E7  by \uni02E502E702E7;
+    sub \uni02E5 \uni02E7 \uni02E8  by \uni02E502E702E8;
+    sub \uni02E5 \uni02E7 \uni02E9  by \uni02E502E702E9;
+    sub \uni02E5 \uni02E7  by \uni02E502E7;
+    sub \uni02E5 \uni02E8 \uni02E5  by \uni02E502E802E5;
+    sub \uni02E5 \uni02E8 \uni02E6  by \uni02E502E802E6;
+    sub \uni02E5 \uni02E8 \uni02E7  by \uni02E502E802E7;
+    sub \uni02E5 \uni02E8 \uni02E8  by \uni02E502E802E8;
+    sub \uni02E5 \uni02E8 \uni02E9  by \uni02E502E802E9;
+    sub \uni02E5 \uni02E8  by \uni02E502E8;
+    sub \uni02E5 \uni02E9 \uni02E5  by \uni02E502E902E5;
+    sub \uni02E5 \uni02E9 \uni02E6  by \uni02E502E902E6;
+    sub \uni02E5 \uni02E9 \uni02E7  by \uni02E502E902E7;
+    sub \uni02E5 \uni02E9 \uni02E8  by \uni02E502E902E8;
+    sub \uni02E5 \uni02E9 \uni02E9  by \uni02E502E902E9;
+    sub \uni02E5 \uni02E9  by \uni02E502E9;
+    sub \uni02E6 \uni02E5 \uni02E5  by \uni02E602E502E5;
+    sub \uni02E6 \uni02E5 \uni02E6  by \uni02E602E502E6;
+    sub \uni02E6 \uni02E5 \uni02E7  by \uni02E602E502E7;
+    sub \uni02E6 \uni02E5 \uni02E8  by \uni02E602E502E8;
+    sub \uni02E6 \uni02E5 \uni02E9  by \uni02E602E502E9;
+    sub \uni02E6 \uni02E5  by \uni02E602E5;
+    sub \uni02E6 \uni02E6 \uni02E5  by \uni02E602E602E5;
+    sub \uni02E6 \uni02E6 \uni02E7  by \uni02E602E602E7;
+    sub \uni02E6 \uni02E6 \uni02E8  by \uni02E602E602E8;
+    sub \uni02E6 \uni02E6 \uni02E9  by \uni02E602E602E9;
+    sub \uni02E6 \uni02E7 \uni02E5  by \uni02E602E702E5;
+    sub \uni02E6 \uni02E7 \uni02E6  by \uni02E602E702E6;
+    sub \uni02E6 \uni02E7 \uni02E7  by \uni02E602E702E7;
+    sub \uni02E6 \uni02E7 \uni02E8  by \uni02E602E702E8;
+    sub \uni02E6 \uni02E7 \uni02E9  by \uni02E602E702E9;
+    sub \uni02E6 \uni02E7  by \uni02E602E7;
+    sub \uni02E6 \uni02E8 \uni02E5  by \uni02E602E802E5;
+    sub \uni02E6 \uni02E8 \uni02E6  by \uni02E602E802E6;
+    sub \uni02E6 \uni02E8 \uni02E7  by \uni02E602E802E7;
+    sub \uni02E6 \uni02E8 \uni02E8  by \uni02E602E802E8;
+    sub \uni02E6 \uni02E8 \uni02E9  by \uni02E602E802E9;
+    sub \uni02E6 \uni02E8  by \uni02E602E8;
+    sub \uni02E6 \uni02E9 \uni02E5  by \uni02E602E902E5;
+    sub \uni02E6 \uni02E9 \uni02E6  by \uni02E602E902E6;
+    sub \uni02E6 \uni02E9 \uni02E7  by \uni02E602E902E7;
+    sub \uni02E6 \uni02E9 \uni02E8  by \uni02E602E902E8;
+    sub \uni02E6 \uni02E9 \uni02E9  by \uni02E602E902E9;
+    sub \uni02E6 \uni02E9  by \uni02E602E9;
+    sub \uni02E7 \uni02E5 \uni02E5  by \uni02E702E502E5;
+    sub \uni02E7 \uni02E5 \uni02E6  by \uni02E702E502E6;
+    sub \uni02E7 \uni02E5 \uni02E7  by \uni02E702E502E7;
+    sub \uni02E7 \uni02E5 \uni02E8  by \uni02E702E502E8;
+    sub \uni02E7 \uni02E5 \uni02E9  by \uni02E702E502E9;
+    sub \uni02E7 \uni02E5  by \uni02E702E5;
+    sub \uni02E7 \uni02E6 \uni02E5  by \uni02E702E602E5;
+    sub \uni02E7 \uni02E6 \uni02E6  by \uni02E702E602E6;
+    sub \uni02E7 \uni02E6 \uni02E7  by \uni02E702E602E7;
+    sub \uni02E7 \uni02E6 \uni02E8  by \uni02E702E602E8;
+    sub \uni02E7 \uni02E6 \uni02E9  by \uni02E702E602E9;
+    sub \uni02E7 \uni02E6  by \uni02E702E6;
+    sub \uni02E7 \uni02E7 \uni02E5  by \uni02E702E702E5;
+    sub \uni02E7 \uni02E7 \uni02E6  by \uni02E702E702E6;
+    sub \uni02E7 \uni02E7 \uni02E8  by \uni02E702E702E8;
+    sub \uni02E7 \uni02E7 \uni02E9  by \uni02E702E702E9;
+    sub \uni02E7 \uni02E8 \uni02E5  by \uni02E702E802E5;
+    sub \uni02E7 \uni02E8 \uni02E6  by \uni02E702E802E6;
+    sub \uni02E7 \uni02E8 \uni02E7  by \uni02E702E802E7;
+    sub \uni02E7 \uni02E8 \uni02E8  by \uni02E702E802E8;
+    sub \uni02E7 \uni02E8 \uni02E9  by \uni02E702E802E9;
+    sub \uni02E7 \uni02E8  by \uni02E702E8;
+    sub \uni02E7 \uni02E9 \uni02E5  by \uni02E702E902E5;
+    sub \uni02E7 \uni02E9 \uni02E6  by \uni02E702E902E6;
+    sub \uni02E7 \uni02E9 \uni02E7  by \uni02E702E902E7;
+    sub \uni02E7 \uni02E9 \uni02E8  by \uni02E702E902E8;
+    sub \uni02E7 \uni02E9 \uni02E9  by \uni02E702E902E9;
+    sub \uni02E7 \uni02E9  by \uni02E702E9;
+    sub \uni02E8 \uni02E5 \uni02E5  by \uni02E802E502E5;
+    sub \uni02E8 \uni02E5 \uni02E6  by \uni02E802E502E6;
+    sub \uni02E8 \uni02E5 \uni02E7  by \uni02E802E502E7;
+    sub \uni02E8 \uni02E5 \uni02E8  by \uni02E802E502E8;
+    sub \uni02E8 \uni02E5 \uni02E9  by \uni02E802E502E9;
+    sub \uni02E8 \uni02E5  by \uni02E802E5;
+    sub \uni02E8 \uni02E6 \uni02E5  by \uni02E802E602E5;
+    sub \uni02E8 \uni02E6 \uni02E6  by \uni02E802E602E6;
+    sub \uni02E8 \uni02E6 \uni02E7  by \uni02E802E602E7;
+    sub \uni02E8 \uni02E6 \uni02E8  by \uni02E802E602E8;
+    sub \uni02E8 \uni02E6 \uni02E9  by \uni02E802E602E9;
+    sub \uni02E8 \uni02E6  by \uni02E802E6;
+    sub \uni02E8 \uni02E7 \uni02E5  by \uni02E802E702E5;
+    sub \uni02E8 \uni02E7 \uni02E6  by \uni02E802E702E6;
+    sub \uni02E8 \uni02E7 \uni02E7  by \uni02E802E702E7;
+    sub \uni02E8 \uni02E7 \uni02E8  by \uni02E802E702E8;
+    sub \uni02E8 \uni02E7 \uni02E9  by \uni02E802E702E9;
+    sub \uni02E8 \uni02E7  by \uni02E802E7;
+    sub \uni02E8 \uni02E8 \uni02E5  by \uni02E802E802E5;
+    sub \uni02E8 \uni02E8 \uni02E6  by \uni02E802E802E6;
+    sub \uni02E8 \uni02E8 \uni02E7  by \uni02E802E802E7;
+    sub \uni02E8 \uni02E8 \uni02E9  by \uni02E802E802E9;
+    sub \uni02E8 \uni02E9 \uni02E5  by \uni02E802E902E5;
+    sub \uni02E8 \uni02E9 \uni02E6  by \uni02E802E902E6;
+    sub \uni02E8 \uni02E9 \uni02E7  by \uni02E802E902E7;
+    sub \uni02E8 \uni02E9 \uni02E8  by \uni02E802E902E8;
+    sub \uni02E8 \uni02E9 \uni02E9  by \uni02E802E902E9;
+    sub \uni02E8 \uni02E9  by \uni02E802E9;
+    sub \uni02E9 \uni02E5 \uni02E5  by \uni02E902E502E5;
+    sub \uni02E9 \uni02E5 \uni02E6  by \uni02E902E502E6;
+    sub \uni02E9 \uni02E5 \uni02E7  by \uni02E902E502E7;
+    sub \uni02E9 \uni02E5 \uni02E8  by \uni02E902E502E8;
+    sub \uni02E9 \uni02E5 \uni02E9  by \uni02E902E502E9;
+    sub \uni02E9 \uni02E5  by \uni02E902E5;
+    sub \uni02E9 \uni02E6 \uni02E5  by \uni02E902E602E5;
+    sub \uni02E9 \uni02E6 \uni02E6  by \uni02E902E602E6;
+    sub \uni02E9 \uni02E6 \uni02E7  by \uni02E902E602E7;
+    sub \uni02E9 \uni02E6 \uni02E8  by \uni02E902E602E8;
+    sub \uni02E9 \uni02E6 \uni02E9  by \uni02E902E602E9;
+    sub \uni02E9 \uni02E6  by \uni02E902E6;
+    sub \uni02E9 \uni02E7 \uni02E5  by \uni02E902E702E5;
+    sub \uni02E9 \uni02E7 \uni02E6  by \uni02E902E702E6;
+    sub \uni02E9 \uni02E7 \uni02E7  by \uni02E902E702E7;
+    sub \uni02E9 \uni02E7 \uni02E8  by \uni02E902E702E8;
+    sub \uni02E9 \uni02E7 \uni02E9  by \uni02E902E702E9;
+    sub \uni02E9 \uni02E7  by \uni02E902E7;
+    sub \uni02E9 \uni02E8 \uni02E5  by \uni02E902E802E5;
+    sub \uni02E9 \uni02E8 \uni02E6  by \uni02E902E802E6;
+    sub \uni02E9 \uni02E8 \uni02E7  by \uni02E902E802E7;
+    sub \uni02E9 \uni02E8 \uni02E8  by \uni02E902E802E8;
+    sub \uni02E9 \uni02E8 \uni02E9  by \uni02E902E802E9;
+    sub \uni02E9 \uni02E8  by \uni02E902E8;
+    sub \uni02E9 \uni02E9 \uni02E5  by \uni02E902E902E5;
+    sub \uni02E9 \uni02E9 \uni02E6  by \uni02E902E902E6;
+    sub \uni02E9 \uni02E9 \uni02E7  by \uni02E902E902E7;
+    sub \uni02E9 \uni02E9 \uni02E8  by \uni02E902E902E8;
+} ccmpGlyphCompositionDecompositioninLatinlookup5;
+
+lookup ccmpGlyphCompositionDecompositioninHebrewlookup6 {
+  lookupflag RightToLeft;
+    sub \uni05D9 \uni05B4  by \uniFB1D;
+    sub \uni05E9 \uni05C1  by \uniFB2A;
+    sub \uni05E9 \uni05C2  by \uniFB2B;
+    sub \uni05E9 \uni05C1 \uni05BC  by \uniFB2C;
+    sub \uni05E9 \uni05BC \uni05C1  by \uniFB2C;
+    sub \uni05E9 \uni05C2 \uni05BC  by \uniFB2D;
+    sub \uni05E9 \uni05BC \uni05C2  by \uniFB2D;
+    sub \uni05D1 \uni05BC  by \uniFB31;
+    sub \uni05D2 \uni05BC  by \uniFB32;
+    sub \uni05D3 \uni05BC  by \uniFB33;
+    sub \uni05D4 \uni05BC  by \uniFB34;
+    sub \uni05D5 \uni05BC  by \uniFB35;
+    sub \uni05D6 \uni05BC  by \uniFB36;
+    sub \uni05D8 \uni05BC  by \uniFB38;
+    sub \uni05D9 \uni05BC  by \uniFB39;
+    sub \uni05DA \uni05BC  by \uniFB3A;
+    sub \uni05DB \uni05BC  by \uniFB3B;
+    sub \uni05DC \uni05BC  by \uniFB3C;
+    sub \uni05DE \uni05BC  by \uniFB3E;
+    sub \uni05E0 \uni05BC  by \uniFB40;
+    sub \uni05E1 \uni05BC  by \uniFB41;
+    sub \uni05E3 \uni05BC  by \uniFB43;
+    sub \uni05E4 \uni05BC  by \uniFB44;
+    sub \uni05E6 \uni05BC  by \uniFB46;
+    sub \uni05E7 \uni05BC  by \uniFB47;
+    sub \uni05E8 \uni05BC  by \uniFB48;
+    sub \uni05E9 \uni05BC  by \uniFB49;
+    sub \uni05EA \uni05BC  by \uniFB4A;
+    sub \uni05D5 \uni05B9  by \uniFB4B;
+    sub \uni05DC \uni05BC \uni05B9  by \lamedholamdagesh;
+    sub \uni05DC \uni05B9  by \lamedholam;
+    sub \uni05DA \uni05B8  by \finalkafqamats;
+    sub \uni05DA \uni05B0  by \finalkafsheva;
+    sub \uni05D0 \uni05BC  by \alefdagesh;
+    sub \uni05B1 \uni05BD  by \uni05B105BD;
+    sub \uni05B2 \uni05BD  by \uni05B205BD;
+    sub \uni05B3 \uni05BD  by \uni05B305BD;
+} ccmpGlyphCompositionDecompositioninHebrewlookup6;
+
+lookup ccmpGlyphCompositionDecompositioninHebrewlookup7 {
+  lookupflag RightToLeft;
+    sub [\uni05D0 \uni05D1 \uni05DB \uni05E4 \uni05F2 ]' [\uni05B7 \uni05B8 \uni05BF ]' [\uni05D0 \uni05D1 \uni05D2 \uni05D3 \uni05D4 \uni05D5 \uni05D6 \uni05D7 \uni05D8 
+	\uni05D9 \uni05DA \uni05DB \uni05DC \uni05DD \uni05DE \uni05DF \uni05E0 
+	\uni05E1 \uni05E2 \uni05E3 \uni05E4 \uni05E5 \uni05E6 \uni05E7 \uni05E8 
+	\uni05E9 \uni05EA \uni05F0 \uni05F1 \uni05F2 \uni25CC \uniFB21 \uniFB22 
+	\uniFB23 \uniFB24 \uniFB25 \uniFB26 \uniFB27 \uniFB28 ]  by \uniFB2E;
+} ccmpGlyphCompositionDecompositioninHebrewlookup7;
+
+feature ss01 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss01StyleSet1lookup10;
+
+ script cyrl;
+     language dflt ;
+      lookup ss01StyleSet1lookup10;
+     language BGR  exclude_dflt;
+      lookup ss01StyleSet1lookup10;
+     language MKD  exclude_dflt;
+      lookup ss01StyleSet1lookup10;
+     language SRB  exclude_dflt;
+      lookup ss01StyleSet1lookup10;
+
+ script grek;
+     language dflt ;
+      lookup ss01StyleSet1lookup10;
+
+ script hebr;
+     language dflt ;
+      lookup ss01StyleSet1lookup10;
+
+ script latn;
+     language dflt ;
+      lookup ss01StyleSet1lookup10;
+} ss01;
+
+feature ss02 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss02StyleSet2lookup11;
+
+ script cyrl;
+     language dflt ;
+      lookup ss02StyleSet2lookup11;
+     language BGR  exclude_dflt;
+      lookup ss02StyleSet2lookup11;
+     language MKD  exclude_dflt;
+      lookup ss02StyleSet2lookup11;
+     language SRB  exclude_dflt;
+      lookup ss02StyleSet2lookup11;
+
+ script grek;
+     language dflt ;
+      lookup ss02StyleSet2lookup11;
+
+ script hebr;
+     language dflt ;
+      lookup ss02StyleSet2lookup11;
+
+ script latn;
+     language dflt ;
+      lookup ss02StyleSet2lookup11;
+} ss02;
+
+feature ss03 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss03StyleSet3lookup12;
+
+ script cyrl;
+     language dflt ;
+      lookup ss03StyleSet3lookup12;
+     language BGR  exclude_dflt;
+      lookup ss03StyleSet3lookup12;
+     language MKD  exclude_dflt;
+      lookup ss03StyleSet3lookup12;
+     language SRB  exclude_dflt;
+      lookup ss03StyleSet3lookup12;
+
+ script grek;
+     language dflt ;
+      lookup ss03StyleSet3lookup12;
+
+ script hebr;
+     language dflt ;
+      lookup ss03StyleSet3lookup12;
+
+ script latn;
+     language dflt ;
+      lookup ss03StyleSet3lookup12;
+} ss03;
+
+feature locl {
+
+ script cyrl;
+     language BGR  exclude_dflt;
+      lookup loclLocalizedFormsinCyrilliclookup9;
+     language MKD  exclude_dflt;
+      lookup loclLocalizedFormsinCyrilliclookup2;
+     language SRB  exclude_dflt;
+      lookup loclLocalizedFormsinCyrilliclookup1;
+} locl;
+
+feature aalt {
+
+ script cyrl;
+     language dflt ;
+      lookup aaltAccessAllAlternateslookup0;
+     language BGR  exclude_dflt;
+      lookup aaltAccessAllAlternateslookup0;
+     language MKD  exclude_dflt;
+      lookup aaltAccessAllAlternateslookup0;
+     language SRB  exclude_dflt;
+      lookup aaltAccessAllAlternateslookup0;
+
+ script grek;
+     language dflt ;
+      lookup aaltAccessAllAlternateslookup0;
+
+ script hebr;
+     language dflt ;
+      lookup aaltAccessAllAlternateslookup0;
+
+ script latn;
+     language dflt ;
+      lookup aaltAccessAllAlternateslookup0;
+} aalt;
+
+feature dlig {
+
+ script hebr;
+     language dflt ;
+      lookup dligDiscretionaryLigaturesinHebrewlookup3;
+} dlig;
+
+feature ccmp {
+
+ script grek;
+     language dflt ;
+      lookup ccmpGlyphCompositionDecompositioninGreeklookup4;
+
+ script hebr;
+     language dflt ;
+      lookup ccmpGlyphCompositionDecompositioninHebrewlookup6;
+      lookup ccmpGlyphCompositionDecompositioninHebrewlookup7;
+
+ script latn;
+     language dflt ;
+      lookup ccmpGlyphCompositionDecompositioninLatinlookup5;
+} ccmp;
+
+# GPOS 
+
+
+lookup kernHorizontalKerninglookup0 {
+  lookupflag 0;
+    pos \space \Upsilondieresis -18;
+    pos \space \Upsilon -18;
+    pos \space \Lambda -37;
+    pos \space \uni0394 -37;
+    pos \space \Alpha -37;
+    pos \space \Alphatonos -37;
+    pos \space \Y -18;
+    pos \space \A -37;
+    pos \one \one -55;
+    pos \A \quoteright -55;
+    pos \A \y -37;
+    pos \A \w -18;
+    pos \A \v -37;
+    pos \A \Y -92;
+    pos \A \W -55;
+    pos \A \V -74;
+    pos \A \T -74;
+    pos \A \space -37;
+    pos \F \A -55;
+    pos \F \period -111;
+    pos \F \comma -111;
+    pos \L \quoteright -55;
+    pos \L \y -37;
+    pos \L \Y -92;
+    pos \L \W -55;
+    pos \L \V -74;
+    pos \L \T -74;
+    pos \L \space -18;
+    pos \P \A -74;
+    pos \P \period -129;
+    pos \P \comma -129;
+    pos \P \space -18;
+    pos \R \Y -37;
+    pos \R \W -18;
+    pos \R \V -18;
+    pos \T \y -74;
+    pos \T \w -74;
+    pos \T \u -74;
+    pos \T \s -74;
+    pos \T \r -55;
+    pos \T \o -74;
+    pos \T \i -18;
+    pos \T \e -74;
+    pos \T \c -74;
+    pos \T \a -74;
+    pos \T \O -18;
+    pos \T \A -74;
+    pos \T \semicolon -111;
+    pos \T \colon -111;
+    pos \T \period -111;
+    pos \T \hyphen -55;
+    pos \T \comma -111;
+    pos \V \y -37;
+    pos \V \u -37;
+    pos \V \r -55;
+    pos \V \o -74;
+    pos \V \i -18;
+    pos \V \e -55;
+    pos \V \a -55;
+    pos \V \A -74;
+    pos \V \semicolon -55;
+    pos \V \colon -55;
+    pos \V \period -92;
+    pos \V \hyphen -55;
+    pos \V \comma -92;
+    pos \W \y -18;
+    pos \W \u -18;
+    pos \W \r -18;
+    pos \W \o -18;
+    pos \W \i -9;
+    pos \W \e -18;
+    pos \W \a -37;
+    pos \W \A -55;
+    pos \W \semicolon -18;
+    pos \W \colon -18;
+    pos \W \period -55;
+    pos \W \hyphen -20;
+    pos \W \comma -55;
+    pos \Y \v -55;
+    pos \Y \u -55;
+    pos \Y \q -74;
+    pos \Y \p -55;
+    pos \Y \o -74;
+    pos \Y \i -37;
+    pos \Y \e -55;
+    pos \Y \a -55;
+    pos \Y \A -92;
+    pos \Y \semicolon -74;
+    pos \Y \colon -74;
+    pos \Y \period -111;
+    pos \Y \hyphen -55;
+    pos \Y \comma -111;
+    pos \Y \space -18;
+    pos \f \quoteright 18;
+    pos \r \quoteright 37;
+    pos \r \period -55;
+    pos \r \comma -55;
+    pos \v \period -74;
+    pos \v \comma -74;
+    pos \w \period -37;
+    pos \w \comma -37;
+    pos \y \period -74;
+    pos \y \comma -74;
+    pos \Alphatonos \chi -37;
+    pos \Alphatonos \nu -37;
+    pos \Alphatonos \gamma -37;
+    pos \Alphatonos \Upsilondieresis -91;
+    pos \Alphatonos \Phi -27;
+    pos \Alphatonos \Upsilon -91;
+    pos \Alphatonos \Tau -83;
+    pos \Alphatonos \Omicron -27;
+    pos \Alphatonos \Theta -27;
+    pos \Omicrontonos \Upsilondieresis -28;
+    pos \Omicrontonos \Upsilon -28;
+    pos \Upsilontonos \omicrontonos -74;
+    pos \Upsilontonos \iotadieresis 45;
+    pos \Upsilontonos \phi -74;
+    pos \Upsilontonos \sigma -74;
+    pos \Upsilontonos \omicron -74;
+    pos \Upsilontonos \uni03BC -37;
+    pos \Upsilontonos \kappa -37;
+    pos \Upsilontonos \iota -37;
+    pos \Upsilontonos \eta -37;
+    pos \Upsilontonos \delta -37;
+    pos \Upsilontonos \alpha -74;
+    pos \Upsilontonos \iotatonos -37;
+    pos \Upsilontonos \etatonos -37;
+    pos \Upsilontonos \alphatonos -74;
+    pos \Upsilontonos \uni03A9 -38;
+    pos \Upsilontonos \Phi -38;
+    pos \Upsilontonos \Omicron -38;
+    pos \Upsilontonos \Lambda -91;
+    pos \Upsilontonos \Theta -38;
+    pos \Upsilontonos \uni0394 -91;
+    pos \Upsilontonos \Alpha -91;
+    pos \Upsilontonos \iotadieresistonos 125;
+    pos \Omegatonos \Upsilondieresis -28;
+    pos \Omegatonos \Upsilon -28;
+    pos \Alpha \quoteright -55;
+    pos \Alpha \chi -37;
+    pos \Alpha \nu -37;
+    pos \Alpha \gamma -37;
+    pos \Alpha \Upsilondieresis -91;
+    pos \Alpha \Phi -27;
+    pos \Alpha \Upsilon -91;
+    pos \Alpha \Tau -83;
+    pos \Alpha \Omicron -27;
+    pos \Alpha \Theta -27;
+    pos \Gamma \iotadieresis 46;
+    pos \Gamma \iota -32;
+    pos \Gamma \iotatonos -32;
+    pos \Gamma \Lambda -109;
+    pos \Gamma \uni0394 -109;
+    pos \Gamma \Alpha -109;
+    pos \Gamma \period -110;
+    pos \Gamma \comma -110;
+    pos \uni0394 \Upsilondieresis -91;
+    pos \uni0394 \Upsilon -91;
+    pos \uni0394 \Tau -83;
+    pos \uni0394 \Omicron -27;
+    pos \uni0394 \Theta -27;
+    pos \Theta \Upsilondieresis -28;
+    pos \Theta \Upsilon -28;
+    pos \Theta \Lambda -27;
+    pos \Theta \uni0394 -27;
+    pos \Theta \Alpha -27;
+    pos \Kappa \omegatonos -23;
+    pos \Kappa \omicrontonos -23;
+    pos \Kappa \omega -23;
+    pos \Kappa \phi -23;
+    pos \Kappa \sigma -23;
+    pos \Kappa \omicron -23;
+    pos \Kappa \xi -23;
+    pos \Kappa \theta -23;
+    pos \Kappa \zeta -23;
+    pos \Kappa \delta -23;
+    pos \Kappa \alpha -23;
+    pos \Kappa \alphatonos -23;
+    pos \Kappa \Phi -46;
+    pos \Kappa \Omicron -46;
+    pos \Kappa \Theta -46;
+    pos \Lambda \Upsilondieresis -91;
+    pos \Lambda \Upsilon -91;
+    pos \Lambda \Tau -83;
+    pos \Lambda \Omicron -27;
+    pos \Lambda \Theta -27;
+    pos \Omicron \Upsilondieresis -28;
+    pos \Omicron \Upsilon -28;
+    pos \Omicron \Lambda -27;
+    pos \Omicron \uni0394 -27;
+    pos \Omicron \Alpha -27;
+    pos \Rho \Lambda -74;
+    pos \Rho \uni0394 -74;
+    pos \Rho \Alpha -74;
+    pos \Rho \period -128;
+    pos \Rho \comma -128;
+    pos \Sigma \tau -17;
+    pos \Sigma \pi -17;
+    pos \Tau \upsilontonos -74;
+    pos \Tau \omicrontonos -74;
+    pos \Tau \upsilondieresis -74;
+    pos \Tau \iotadieresis 45;
+    pos \Tau \psi -74;
+    pos \Tau \chi -60;
+    pos \Tau \phi -74;
+    pos \Tau \upsilon -74;
+    pos \Tau \sigma -74;
+    pos \Tau \omicron -74;
+    pos \Tau \nu -74;
+    pos \Tau \uni03BC -74;
+    pos \Tau \iota -18;
+    pos \Tau \eta -74;
+    pos \Tau \epsilon -74;
+    pos \Tau \delta -41;
+    pos \Tau \gamma -74;
+    pos \Tau \alpha -74;
+    pos \Tau \epsilontonos -74;
+    pos \Tau \alphatonos -74;
+    pos \Tau \uni03A9 -18;
+    pos \Tau \Phi -27;
+    pos \Tau \Omicron -18;
+    pos \Tau \Lambda -74;
+    pos \Tau \Theta -18;
+    pos \Tau \uni0394 -80;
+    pos \Tau \Alpha -74;
+    pos \Tau \iotadieresistonos 118;
+    pos \Tau \semicolon -110;
+    pos \Tau \colon -110;
+    pos \Tau \period -110;
+    pos \Tau \hyphen -55;
+    pos \Tau \comma -110;
+    pos \Upsilon \omicrontonos -74;
+    pos \Upsilon \iotadieresis 45;
+    pos \Upsilon \phi -74;
+    pos \Upsilon \sigma -74;
+    pos \Upsilon \omicron -74;
+    pos \Upsilon \uni03BC -37;
+    pos \Upsilon \kappa -37;
+    pos \Upsilon \iota -37;
+    pos \Upsilon \eta -37;
+    pos \Upsilon \delta -37;
+    pos \Upsilon \gamma -41;
+    pos \Upsilon \alpha -74;
+    pos \Upsilon \iotatonos -37;
+    pos \Upsilon \etatonos -37;
+    pos \Upsilon \alphatonos -74;
+    pos \Upsilon \uni03A9 -38;
+    pos \Upsilon \Phi -38;
+    pos \Upsilon \Omicron -38;
+    pos \Upsilon \Lambda -91;
+    pos \Upsilon \Theta -38;
+    pos \Upsilon \uni0394 -91;
+    pos \Upsilon \Alpha -91;
+    pos \Upsilon \iotadieresistonos 125;
+    pos \Upsilon \semicolon -74;
+    pos \Upsilon \colon -74;
+    pos \Upsilon \period -110;
+    pos \Upsilon \hyphen -55;
+    pos \Upsilon \comma -110;
+    pos \Phi \Upsilondieresis -28;
+    pos \Phi \Upsilon -28;
+    pos \Phi \Tau -27;
+    pos \Phi \Alpha -27;
+    pos \Chi \omegatonos -13;
+    pos \Chi \omega -13;
+    pos \Psi \omegatonos -18;
+    pos \Psi \omicrontonos -18;
+    pos \Psi \omega -18;
+    pos \Psi \phi -18;
+    pos \Psi \sigma -18;
+    pos \Psi \omicron -18;
+    pos \Psi \delta -18;
+    pos \Psi \alpha -18;
+    pos \Psi \alphatonos -18;
+    pos \uni03A9 \Upsilondieresis -28;
+    pos \uni03A9 \Upsilon -28;
+    pos \Upsilondieresis \omicrontonos -74;
+    pos \Upsilondieresis \iotadieresis 45;
+    pos \Upsilondieresis \phi -74;
+    pos \Upsilondieresis \sigma -74;
+    pos \Upsilondieresis \omicron -74;
+    pos \Upsilondieresis \uni03BC -37;
+    pos \Upsilondieresis \kappa -37;
+    pos \Upsilondieresis \iota -37;
+    pos \Upsilondieresis \eta -37;
+    pos \Upsilondieresis \delta -37;
+    pos \Upsilondieresis \alpha -74;
+    pos \Upsilondieresis \iotatonos -37;
+    pos \Upsilondieresis \etatonos -37;
+    pos \Upsilondieresis \alphatonos -74;
+    pos \Upsilondieresis \uni03A9 -38;
+    pos \Upsilondieresis \Phi -38;
+    pos \Upsilondieresis \Omicron -38;
+    pos \Upsilondieresis \Lambda -91;
+    pos \Upsilondieresis \Theta -38;
+    pos \Upsilondieresis \uni0394 -91;
+    pos \Upsilondieresis \Alpha -91;
+    pos \Upsilondieresis \iotadieresistonos 125;
+    pos \delta \chi -36;
+    pos \delta \tau -28;
+    pos \delta \pi -28;
+    pos \zeta \omegatonos -56;
+    pos \zeta \omicrontonos -56;
+    pos \zeta \omega -56;
+    pos \zeta \phi -56;
+    pos \zeta \tau -37;
+    pos \zeta \sigma -56;
+    pos \zeta \pi -37;
+    pos \zeta \omicron -56;
+    pos \zeta \nu -32;
+    pos \zeta \kappa -24;
+    pos \zeta \iota -24;
+    pos \zeta \theta -37;
+    pos \zeta \eta -24;
+    pos \zeta \delta -37;
+    pos \zeta \gamma -32;
+    pos \zeta \alpha -56;
+    pos \zeta \etatonos -24;
+    pos \zeta \alphatonos -56;
+    pos \kappa \omegatonos -33;
+    pos \kappa \omicrontonos -33;
+    pos \kappa \omega -33;
+    pos \kappa \phi -33;
+    pos \kappa \sigma -33;
+    pos \kappa \sigma1 -33;
+    pos \kappa \omicron -33;
+    pos \kappa \xi -33;
+    pos \kappa \theta -14;
+    pos \kappa \zeta -33;
+    pos \kappa \delta -33;
+    pos \kappa \alpha -33;
+    pos \kappa \alphatonos -33;
+    pos \lambda \omegatonos -12;
+    pos \lambda \upsilontonos -15;
+    pos \lambda \omicrontonos -12;
+    pos \lambda \upsilondieresis -15;
+    pos \lambda \omega -12;
+    pos \lambda \phi -12;
+    pos \lambda \upsilon -15;
+    pos \lambda \sigma -12;
+    pos \lambda \sigma1 -12;
+    pos \lambda \omicron -12;
+    pos \lambda \xi -12;
+    pos \lambda \zeta -12;
+    pos \lambda \delta -12;
+    pos \lambda \alpha -12;
+    pos \lambda \upsilondieresistonos -15;
+    pos \lambda \alphatonos -12;
+    pos \xi \omicrontonos -12;
+    pos \xi \phi -12;
+    pos \xi \sigma -12;
+    pos \xi \sigma1 -12;
+    pos \xi \omicron -12;
+    pos \xi \xi -12;
+    pos \xi \zeta -12;
+    pos \xi \delta -12;
+    pos \xi \alpha -12;
+    pos \xi \alphatonos -12;
+    pos \omicron \chi -36;
+    pos \omicron \tau -28;
+    pos \omicron \pi -28;
+    pos \pi \omegatonos -28;
+    pos \pi \omega -28;
+    pos \pi \phi -28;
+    pos \pi \sigma -28;
+    pos \pi \sigma1 -28;
+    pos \pi \omicron -28;
+    pos \pi \lambda -37;
+    pos \pi \zeta -28;
+    pos \pi \delta -28;
+    pos \pi \alpha -28;
+    pos \pi \alphatonos -28;
+    pos \rho \tau -28;
+    pos \rho \pi -28;
+    pos \tau \omegatonos -28;
+    pos \tau \omega -28;
+    pos \tau \phi -28;
+    pos \tau \sigma -28;
+    pos \tau \sigma1 -28;
+    pos \tau \omicron -28;
+    pos \tau \zeta -28;
+    pos \tau \delta -28;
+    pos \tau \alpha -28;
+    pos \tau \alphatonos -28;
+    pos \phi \chi -36;
+    pos \phi \tau -28;
+    pos \phi \pi -28;
+    pos \phi \lambda -12;
+    pos \chi \omegatonos -21;
+    pos \chi \omicrontonos -36;
+    pos \chi \omega -21;
+    pos \chi \phi -36;
+    pos \chi \sigma -36;
+    pos \chi \sigma1 -36;
+    pos \chi \omicron -36;
+    pos \chi \zeta -36;
+    pos \chi \delta -36;
+    pos \chi \alpha -36;
+    pos \chi \alphatonos -36;
+    pos \omega \chi -21;
+    pos \omega \tau -28;
+    pos \omega \pi -28;
+    pos \omicrontonos \chi -36;
+    pos \omicrontonos \tau -28;
+    pos \omicrontonos \pi -28;
+    pos \omegatonos \chi -21;
+    pos \omegatonos \tau -28;
+    pos \omegatonos \pi -28;
+    pos \uni0403 \guillemotright -38;
+    pos \uni0403 \guillemotleft -38;
+    pos \uni0403 \semicolon -13;
+    pos \uni0403 \colon -13;
+    pos \uni0403 \period -125;
+    pos \uni0403 \comma -113;
+    pos \uni0409 \quoteright -100;
+    pos \uni040A \quoteright -100;
+    pos \uni045E \guillemotleft -25;
+    pos \uni045E \semicolon -13;
+    pos \uni045E \colon -13;
+    pos \uni045E \period -88;
+    pos \uni045E \comma -75;
+    pos \uni0490 \guillemotright -25;
+    pos \uni0490 \guillemotleft -25;
+    pos \uni0490 \semicolon -13;
+    pos \uni0490 \colon -13;
+    pos \uni0490 \period -75;
+    pos \uni0490 \comma -63;
+    pos \uni05D0 \alternativelamed -20;
+    pos \uni05D0 \lamedholam -20;
+    pos \uni05D0 \lamedholamdagesh -20;
+    pos \uni05D0 \uniFB49 -20;
+    pos \uni05D0 \uniFB47 -20;
+    pos \uni05D0 \uniFB3C -20;
+    pos \uni05D0 \uniFB2D -20;
+    pos \uni05D0 \uniFB2C -20;
+    pos \uni05D0 \uniFB2B -20;
+    pos \uni05D0 \uniFB2A -20;
+    pos \uni05D0 \uniFB25 -20;
+    pos \uni05D0 \uniFB20 -20;
+    pos \uni05D0 \uni05E9 -20;
+    pos \uni05D0 \uni05E7 -20;
+    pos \uni05D0 \uni05E2 -20;
+    pos \uni05D0 \uni05DC -20;
+    pos \uni05D1 \alternativelamed -20;
+    pos \uni05D1 \lamedholam -20;
+    pos \uni05D1 \lamedholamdagesh -20;
+    pos \uni05D1 \uniFB49 -20;
+    pos \uni05D1 \uniFB47 -20;
+    pos \uni05D1 \uniFB3C -20;
+    pos \uni05D1 \uniFB2D -20;
+    pos \uni05D1 \uniFB2C -20;
+    pos \uni05D1 \uniFB2B -20;
+    pos \uni05D1 \uniFB2A -20;
+    pos \uni05D1 \uniFB25 -20;
+    pos \uni05D1 \uniFB20 -20;
+    pos \uni05D1 \uni05E9 -20;
+    pos \uni05D1 \uni05E7 -20;
+    pos \uni05D1 \uni05E2 -20;
+    pos \uni05D1 \uni05DC -20;
+    pos \uni05D2 \alternativelamed -20;
+    pos \uni05D2 \lamedholam -20;
+    pos \uni05D2 \lamedholamdagesh -20;
+    pos \uni05D2 \uniFB49 -20;
+    pos \uni05D2 \uniFB47 -20;
+    pos \uni05D2 \uniFB3C -20;
+    pos \uni05D2 \uniFB2D -20;
+    pos \uni05D2 \uniFB2C -20;
+    pos \uni05D2 \uniFB2B -20;
+    pos \uni05D2 \uniFB2A -20;
+    pos \uni05D2 \uniFB25 -20;
+    pos \uni05D2 \uniFB20 -20;
+    pos \uni05D2 \uni05E9 -20;
+    pos \uni05D2 \uni05E7 -20;
+    pos \uni05D2 \uni05E2 -20;
+    pos \uni05D2 \uni05DC -20;
+    pos \uni05D3 \finalkafsheva -30;
+    pos \uni05D3 \finalkafqamats -30;
+    pos \uni05D3 \uniFB4E -30;
+    pos \uni05D3 \uniFB4D -30;
+    pos \uni05D3 \uniFB4C -30;
+    pos \uni05D3 \uniFB4A -30;
+    pos \uni05D3 \uniFB44 -30;
+    pos \uni05D3 \uniFB43 -30;
+    pos \uni05D3 \uniFB41 -30;
+    pos \uni05D3 \uniFB3B -30;
+    pos \uni05D3 \uniFB38 -30;
+    pos \uni05D3 \uniFB34 -30;
+    pos \uni05D3 \uniFB28 -30;
+    pos \uni05D3 \uniFB26 -30;
+    pos \uni05D3 \uniFB24 -30;
+    pos \uni05D3 \uniFB23 -30;
+    pos \uni05D3 \uni05EA -30;
+    pos \uni05D3 \uni05E4 -30;
+    pos \uni05D3 \uni05E3 -30;
+    pos \uni05D3 \uni05E1 -30;
+    pos \uni05D3 \uni05DE -30;
+    pos \uni05D3 \uni05DD -30;
+    pos \uni05D3 \uni05DB -30;
+    pos \uni05D3 \uni05DA -30;
+    pos \uni05D3 \uni05D7 -30;
+    pos \uni05D3 \uni05D6 20;
+    pos \uni05D3 \uni05D4 -30;
+    pos \uni05D3 \uni05D2 -50;
+    pos \uni05D3 \uni05D1 -30;
+    pos \uni05D6 \finalkafsheva -20;
+    pos \uni05D6 \finalkafqamats -20;
+    pos \uni05D6 \uniFB4E -20;
+    pos \uni05D6 \uniFB4D -20;
+    pos \uni05D6 \uniFB4C -20;
+    pos \uni05D6 \uniFB4A -20;
+    pos \uni05D6 \uniFB44 -20;
+    pos \uni05D6 \uniFB43 -20;
+    pos \uni05D6 \uniFB41 -20;
+    pos \uni05D6 \uniFB3B -20;
+    pos \uni05D6 \uniFB38 -20;
+    pos \uni05D6 \uniFB34 -20;
+    pos \uni05D6 \uniFB28 -20;
+    pos \uni05D6 \uniFB26 -20;
+    pos \uni05D6 \uniFB24 -20;
+    pos \uni05D6 \uniFB23 -20;
+    pos \uni05D6 \uni05EA -20;
+    pos \uni05D6 \uni05E4 -20;
+    pos \uni05D6 \uni05E3 -20;
+    pos \uni05D6 \uni05E1 -20;
+    pos \uni05D6 \uni05DE -20;
+    pos \uni05D6 \uni05DD -20;
+    pos \uni05D6 \uni05DB -20;
+    pos \uni05D6 \uni05DA -20;
+    pos \uni05D6 \uni05D7 -20;
+    pos \uni05D6 \uni05D4 -20;
+    pos \uni05D6 \uni05D3 20;
+    pos \uni05D6 \uni05D2 -10;
+    pos \uni05D6 \uni05D1 -20;
+    pos \uni05D8 \uni05D2 -20;
+    pos \uni05D9 \finalkafsheva -20;
+    pos \uni05D9 \finalkafqamats -20;
+    pos \uni05D9 \uniFB4E -20;
+    pos \uni05D9 \uniFB4D -20;
+    pos \uni05D9 \uniFB4C -20;
+    pos \uni05D9 \uniFB4A -20;
+    pos \uni05D9 \uniFB44 -20;
+    pos \uni05D9 \uniFB43 -20;
+    pos \uni05D9 \uniFB41 -20;
+    pos \uni05D9 \uniFB3B -20;
+    pos \uni05D9 \uniFB38 -20;
+    pos \uni05D9 \uniFB34 -20;
+    pos \uni05D9 \uniFB28 -20;
+    pos \uni05D9 \uniFB26 -20;
+    pos \uni05D9 \uniFB24 -20;
+    pos \uni05D9 \uniFB23 -20;
+    pos \uni05D9 \uni05EA -20;
+    pos \uni05D9 \uni05E4 -20;
+    pos \uni05D9 \uni05E3 -20;
+    pos \uni05D9 \uni05E1 -20;
+    pos \uni05D9 \uni05DE -20;
+    pos \uni05D9 \uni05DD -20;
+    pos \uni05D9 \uni05DB -20;
+    pos \uni05D9 \uni05DA -20;
+    pos \uni05D9 \uni05D7 -20;
+    pos \uni05D9 \uni05D4 -20;
+    pos \uni05D9 \uni05D2 -20;
+    pos \uni05D9 \uni05D1 -20;
+    pos \uni05DA \finalkafsheva -30;
+    pos \uni05DA \finalkafqamats -30;
+    pos \uni05DA \uniFB4E -30;
+    pos \uni05DA \uniFB4D -30;
+    pos \uni05DA \uniFB4C -30;
+    pos \uni05DA \uniFB4A -30;
+    pos \uni05DA \uniFB44 -30;
+    pos \uni05DA \uniFB43 -30;
+    pos \uni05DA \uniFB41 -30;
+    pos \uni05DA \uniFB3B -30;
+    pos \uni05DA \uniFB38 -30;
+    pos \uni05DA \uniFB34 -30;
+    pos \uni05DA \uniFB28 -30;
+    pos \uni05DA \uniFB26 -30;
+    pos \uni05DA \uniFB24 -30;
+    pos \uni05DA \uniFB23 -30;
+    pos \uni05DA \uni05EA -30;
+    pos \uni05DA \uni05E4 -30;
+    pos \uni05DA \uni05E3 -30;
+    pos \uni05DA \uni05E1 -30;
+    pos \uni05DA \uni05DE -30;
+    pos \uni05DA \uni05DD -30;
+    pos \uni05DA \uni05DB -30;
+    pos \uni05DA \uni05DA -30;
+    pos \uni05DA \uni05D7 -30;
+    pos \uni05DA \uni05D6 20;
+    pos \uni05DA \uni05D4 -30;
+    pos \uni05DA \uni05D2 -50;
+    pos \uni05DA \uni05D1 -30;
+    pos \uni05DB \alternativelamed -20;
+    pos \uni05DB \lamedholam -20;
+    pos \uni05DB \lamedholamdagesh -20;
+    pos \uni05DB \uniFB49 -20;
+    pos \uni05DB \uniFB47 -20;
+    pos \uni05DB \uniFB3C -20;
+    pos \uni05DB \uniFB2D -20;
+    pos \uni05DB \uniFB2C -20;
+    pos \uni05DB \uniFB2B -20;
+    pos \uni05DB \uniFB2A -20;
+    pos \uni05DB \uniFB25 -20;
+    pos \uni05DB \uniFB20 -20;
+    pos \uni05DB \uni05E9 -20;
+    pos \uni05DB \uni05E7 -20;
+    pos \uni05DB \uni05E2 -20;
+    pos \uni05DB \uni05DC -20;
+    pos \uni05DC \alternativelamed -10;
+    pos \uni05DC \finalkafsheva -20;
+    pos \uni05DC \finalkafqamats -20;
+    pos \uni05DC \lamedholam -10;
+    pos \uni05DC \lamedholamdagesh -10;
+    pos \uni05DC \uniFB4E -20;
+    pos \uni05DC \uniFB4D -20;
+    pos \uni05DC \uniFB4C -20;
+    pos \uni05DC \uniFB4A -20;
+    pos \uni05DC \uniFB49 -10;
+    pos \uni05DC \uniFB47 -10;
+    pos \uni05DC \uniFB44 -20;
+    pos \uni05DC \uniFB43 -20;
+    pos \uni05DC \uniFB41 -20;
+    pos \uni05DC \uniFB3C -10;
+    pos \uni05DC \uniFB3B -20;
+    pos \uni05DC \uniFB38 -20;
+    pos \uni05DC \uniFB34 -20;
+    pos \uni05DC \uniFB2D -10;
+    pos \uni05DC \uniFB2C -10;
+    pos \uni05DC \uniFB2B -10;
+    pos \uni05DC \uniFB2A -10;
+    pos \uni05DC \uniFB28 -20;
+    pos \uni05DC \uniFB26 -20;
+    pos \uni05DC \uniFB25 -10;
+    pos \uni05DC \uniFB24 -20;
+    pos \uni05DC \uniFB23 -20;
+    pos \uni05DC \uniFB20 -10;
+    pos \uni05DC \uni05EA -20;
+    pos \uni05DC \uni05E9 -10;
+    pos \uni05DC \uni05E7 -10;
+    pos \uni05DC \uni05E4 -20;
+    pos \uni05DC \uni05E3 -20;
+    pos \uni05DC \uni05E2 -10;
+    pos \uni05DC \uni05E1 -20;
+    pos \uni05DC \uni05DE -20;
+    pos \uni05DC \uni05DD -20;
+    pos \uni05DC \uni05DC -10;
+    pos \uni05DC \uni05DB -20;
+    pos \uni05DC \uni05DA -20;
+    pos \uni05DC \uni05D7 -20;
+    pos \uni05DC \uni05D4 -20;
+    pos \uni05DC \uni05D2 -20;
+    pos \uni05DC \uni05D1 -20;
+    pos \uni05DE \alternativelamed -10;
+    pos \uni05DE \lamedholam -10;
+    pos \uni05DE \lamedholamdagesh -10;
+    pos \uni05DE \uniFB49 -10;
+    pos \uni05DE \uniFB47 -10;
+    pos \uni05DE \uniFB3C -10;
+    pos \uni05DE \uniFB2D -10;
+    pos \uni05DE \uniFB2C -10;
+    pos \uni05DE \uniFB2B -10;
+    pos \uni05DE \uniFB2A -10;
+    pos \uni05DE \uniFB25 -10;
+    pos \uni05DE \uniFB20 -10;
+    pos \uni05DE \uni05E9 -10;
+    pos \uni05DE \uni05E7 -10;
+    pos \uni05DE \uni05E2 -10;
+    pos \uni05DE \uni05DC -10;
+    pos \uni05E0 \alternativelamed -20;
+    pos \uni05E0 \lamedholam -20;
+    pos \uni05E0 \lamedholamdagesh -20;
+    pos \uni05E0 \uniFB49 -20;
+    pos \uni05E0 \uniFB47 -20;
+    pos \uni05E0 \uniFB3C -20;
+    pos \uni05E0 \uniFB2D -20;
+    pos \uni05E0 \uniFB2C -20;
+    pos \uni05E0 \uniFB2B -20;
+    pos \uni05E0 \uniFB2A -20;
+    pos \uni05E0 \uniFB25 -20;
+    pos \uni05E0 \uniFB20 -20;
+    pos \uni05E0 \uni05E9 -20;
+    pos \uni05E0 \uni05E7 -20;
+    pos \uni05E0 \uni05E2 -20;
+    pos \uni05E0 \uni05DC -20;
+    pos \uni05E1 \finalkafsheva -10;
+    pos \uni05E1 \finalkafqamats -10;
+    pos \uni05E1 \uniFB4E -10;
+    pos \uni05E1 \uniFB4D -10;
+    pos \uni05E1 \uniFB4C -10;
+    pos \uni05E1 \uniFB4A -10;
+    pos \uni05E1 \uniFB44 -10;
+    pos \uni05E1 \uniFB43 -10;
+    pos \uni05E1 \uniFB41 -10;
+    pos \uni05E1 \uniFB3B -10;
+    pos \uni05E1 \uniFB38 -10;
+    pos \uni05E1 \uniFB34 -10;
+    pos \uni05E1 \uniFB28 -10;
+    pos \uni05E1 \uniFB26 -10;
+    pos \uni05E1 \uniFB24 -10;
+    pos \uni05E1 \uniFB23 -10;
+    pos \uni05E1 \uni05EA -10;
+    pos \uni05E1 \uni05E4 -10;
+    pos \uni05E1 \uni05E3 -10;
+    pos \uni05E1 \uni05E1 -10;
+    pos \uni05E1 \uni05DE -10;
+    pos \uni05E1 \uni05DD -10;
+    pos \uni05E1 \uni05DB -10;
+    pos \uni05E1 \uni05DA -10;
+    pos \uni05E1 \uni05D7 -10;
+    pos \uni05E1 \uni05D6 20;
+    pos \uni05E1 \uni05D4 -10;
+    pos \uni05E1 \uni05D1 -10;
+    pos \uni05E3 \alternativelamed -10;
+    pos \uni05E3 \finalkafsheva -20;
+    pos \uni05E3 \finalkafqamats -20;
+    pos \uni05E3 \lamedholam -10;
+    pos \uni05E3 \lamedholamdagesh -10;
+    pos \uni05E3 \uniFB4E -20;
+    pos \uni05E3 \uniFB4D -20;
+    pos \uni05E3 \uniFB4C -20;
+    pos \uni05E3 \uniFB4A -20;
+    pos \uni05E3 \uniFB49 -10;
+    pos \uni05E3 \uniFB47 -10;
+    pos \uni05E3 \uniFB44 -20;
+    pos \uni05E3 \uniFB43 -20;
+    pos \uni05E3 \uniFB41 -20;
+    pos \uni05E3 \uniFB3C -10;
+    pos \uni05E3 \uniFB3B -20;
+    pos \uni05E3 \uniFB38 -20;
+    pos \uni05E3 \uniFB34 -20;
+    pos \uni05E3 \uniFB2D -10;
+    pos \uni05E3 \uniFB2C -10;
+    pos \uni05E3 \uniFB2B -10;
+    pos \uni05E3 \uniFB2A -10;
+    pos \uni05E3 \uniFB28 -20;
+    pos \uni05E3 \uniFB26 -20;
+    pos \uni05E3 \uniFB25 -10;
+    pos \uni05E3 \uniFB24 -20;
+    pos \uni05E3 \uniFB23 -20;
+    pos \uni05E3 \uniFB20 -10;
+    pos \uni05E3 \uni05EA -20;
+    pos \uni05E3 \uni05E9 -10;
+    pos \uni05E3 \uni05E7 -10;
+    pos \uni05E3 \uni05E4 -20;
+    pos \uni05E3 \uni05E3 -20;
+    pos \uni05E3 \uni05E2 -10;
+    pos \uni05E3 \uni05E1 -20;
+    pos \uni05E3 \uni05DE -20;
+    pos \uni05E3 \uni05DD -20;
+    pos \uni05E3 \uni05DC -10;
+    pos \uni05E3 \uni05DB -20;
+    pos \uni05E3 \uni05DA -20;
+    pos \uni05E3 \uni05D7 -20;
+    pos \uni05E3 \uni05D4 -20;
+    pos \uni05E3 \uni05D2 -20;
+    pos \uni05E3 \uni05D1 -20;
+    pos \uni05E5 \alternativelamed -10;
+    pos \uni05E5 \finalkafsheva -20;
+    pos \uni05E5 \finalkafqamats -20;
+    pos \uni05E5 \lamedholam -10;
+    pos \uni05E5 \lamedholamdagesh -10;
+    pos \uni05E5 \uniFB4E -20;
+    pos \uni05E5 \uniFB4D -20;
+    pos \uni05E5 \uniFB4C -20;
+    pos \uni05E5 \uniFB4A -20;
+    pos \uni05E5 \uniFB49 -10;
+    pos \uni05E5 \uniFB47 -10;
+    pos \uni05E5 \uniFB44 -20;
+    pos \uni05E5 \uniFB43 -20;
+    pos \uni05E5 \uniFB41 -20;
+    pos \uni05E5 \uniFB3C -10;
+    pos \uni05E5 \uniFB3B -20;
+    pos \uni05E5 \uniFB38 -20;
+    pos \uni05E5 \uniFB34 -20;
+    pos \uni05E5 \uniFB2D -10;
+    pos \uni05E5 \uniFB2C -10;
+    pos \uni05E5 \uniFB2B -10;
+    pos \uni05E5 \uniFB2A -10;
+    pos \uni05E5 \uniFB28 -20;
+    pos \uni05E5 \uniFB26 -20;
+    pos \uni05E5 \uniFB25 -10;
+    pos \uni05E5 \uniFB24 -20;
+    pos \uni05E5 \uniFB23 -20;
+    pos \uni05E5 \uniFB20 -10;
+    pos \uni05E5 \uni05EA -20;
+    pos \uni05E5 \uni05E9 -10;
+    pos \uni05E5 \uni05E7 -10;
+    pos \uni05E5 \uni05E4 -20;
+    pos \uni05E5 \uni05E3 -20;
+    pos \uni05E5 \uni05E2 -10;
+    pos \uni05E5 \uni05E1 -20;
+    pos \uni05E5 \uni05DE -20;
+    pos \uni05E5 \uni05DD -20;
+    pos \uni05E5 \uni05DC -10;
+    pos \uni05E5 \uni05DB -20;
+    pos \uni05E5 \uni05DA -20;
+    pos \uni05E5 \uni05D8 -10;
+    pos \uni05E5 \uni05D7 -20;
+    pos \uni05E5 \uni05D4 -20;
+    pos \uni05E5 \uni05D2 -20;
+    pos \uni05E5 \uni05D1 -20;
+    pos \uni05E8 \finalkafsheva -30;
+    pos \uni05E8 \finalkafqamats -30;
+    pos \uni05E8 \uniFB4E -30;
+    pos \uni05E8 \uniFB4D -30;
+    pos \uni05E8 \uniFB4C -30;
+    pos \uni05E8 \uniFB4A -30;
+    pos \uni05E8 \uniFB44 -30;
+    pos \uni05E8 \uniFB43 -30;
+    pos \uni05E8 \uniFB41 -30;
+    pos \uni05E8 \uniFB3B -30;
+    pos \uni05E8 \uniFB38 -30;
+    pos \uni05E8 \uniFB34 -30;
+    pos \uni05E8 \uniFB28 -30;
+    pos \uni05E8 \uniFB26 -30;
+    pos \uni05E8 \uniFB24 -30;
+    pos \uni05E8 \uniFB23 -30;
+    pos \uni05E8 \uni05EA -30;
+    pos \uni05E8 \uni05E4 -30;
+    pos \uni05E8 \uni05E3 -30;
+    pos \uni05E8 \uni05E1 -30;
+    pos \uni05E8 \uni05DE -30;
+    pos \uni05E8 \uni05DD -30;
+    pos \uni05E8 \uni05DB -30;
+    pos \uni05E8 \uni05DA -30;
+    pos \uni05E8 \uni05D7 -30;
+    pos \uni05E8 \uni05D6 20;
+    pos \uni05E8 \uni05D4 -30;
+    pos \uni05E8 \uni05D2 -50;
+    pos \uni05E8 \uni05D1 -30;
+    pos \uni05E9 \uni05D2 -20;
+    pos \uni05EA \alternativelamed -20;
+    pos \uni05EA \lamedholam -20;
+    pos \uni05EA \lamedholamdagesh -20;
+    pos \uni05EA \uniFB49 -20;
+    pos \uni05EA \uniFB47 -20;
+    pos \uni05EA \uniFB3C -20;
+    pos \uni05EA \uniFB2D -20;
+    pos \uni05EA \uniFB2C -20;
+    pos \uni05EA \uniFB2B -20;
+    pos \uni05EA \uniFB2A -20;
+    pos \uni05EA \uniFB25 -20;
+    pos \uni05EA \uniFB20 -20;
+    pos \uni05EA \uni05E9 -20;
+    pos \uni05EA \uni05E7 -20;
+    pos \uni05EA \uni05E2 -20;
+    pos \uni05EA \uni05DC -20;
+    pos \uni05F1 \finalkafsheva -20;
+    pos \uni05F1 \finalkafqamats -20;
+    pos \uni05F1 \uniFB4E -20;
+    pos \uni05F1 \uniFB4D -20;
+    pos \uni05F1 \uniFB4C -20;
+    pos \uni05F1 \uniFB4A -20;
+    pos \uni05F1 \uniFB44 -20;
+    pos \uni05F1 \uniFB43 -20;
+    pos \uni05F1 \uniFB41 -20;
+    pos \uni05F1 \uniFB3B -20;
+    pos \uni05F1 \uniFB38 -20;
+    pos \uni05F1 \uniFB34 -20;
+    pos \uni05F1 \uniFB28 -20;
+    pos \uni05F1 \uniFB26 -20;
+    pos \uni05F1 \uniFB24 -20;
+    pos \uni05F1 \uniFB23 -20;
+    pos \uni05F1 \uni05EA -20;
+    pos \uni05F1 \uni05E4 -20;
+    pos \uni05F1 \uni05E3 -20;
+    pos \uni05F1 \uni05E1 -20;
+    pos \uni05F1 \uni05DE -20;
+    pos \uni05F1 \uni05DD -20;
+    pos \uni05F1 \uni05DB -20;
+    pos \uni05F1 \uni05DA -20;
+    pos \uni05F1 \uni05D7 -20;
+    pos \uni05F1 \uni05D4 -20;
+    pos \uni05F1 \uni05D1 -20;
+    pos \uni05F2 \finalkafsheva -20;
+    pos \uni05F2 \finalkafqamats -20;
+    pos \uni05F2 \uniFB4E -20;
+    pos \uni05F2 \uniFB4D -20;
+    pos \uni05F2 \uniFB4C -20;
+    pos \uni05F2 \uniFB4A -20;
+    pos \uni05F2 \uniFB44 -20;
+    pos \uni05F2 \uniFB43 -20;
+    pos \uni05F2 \uniFB41 -20;
+    pos \uni05F2 \uniFB3B -20;
+    pos \uni05F2 \uniFB38 -20;
+    pos \uni05F2 \uniFB34 -20;
+    pos \uni05F2 \uniFB28 -20;
+    pos \uni05F2 \uniFB26 -20;
+    pos \uni05F2 \uniFB24 -20;
+    pos \uni05F2 \uniFB23 -20;
+    pos \uni05F2 \uni05EA -20;
+    pos \uni05F2 \uni05E4 -20;
+    pos \uni05F2 \uni05E3 -20;
+    pos \uni05F2 \uni05E1 -20;
+    pos \uni05F2 \uni05DE -20;
+    pos \uni05F2 \uni05DD -20;
+    pos \uni05F2 \uni05DB -20;
+    pos \uni05F2 \uni05DA -20;
+    pos \uni05F2 \uni05D7 -20;
+    pos \uni05F2 \uni05D4 -20;
+    pos \uni05F2 \uni05D1 -20;
+    pos \quoteleft \quoteleft -37;
+    pos \quoteright \quoteright -37;
+    pos \quoteright \s -37;
+    pos \quoteright \space -55;
+    pos \quotedblbase \uni042A.loclBGR -88;
+    pos \quotedblbase \uni0427.loclBGR -101;
+    pos \quotedblbase \uni0422.loclBGR -88;
+    pos \quotedblbase \uni040B -100;
+    pos \quotedblbase \uni0402 -100;
+    pos \uniFB21 \alternativelamed -20;
+    pos \uniFB21 \lamedholam -20;
+    pos \uniFB21 \lamedholamdagesh -20;
+    pos \uniFB21 \uniFB49 -20;
+    pos \uniFB21 \uniFB47 -20;
+    pos \uniFB21 \uniFB3C -20;
+    pos \uniFB21 \uniFB2D -20;
+    pos \uniFB21 \uniFB2C -20;
+    pos \uniFB21 \uniFB2B -20;
+    pos \uniFB21 \uniFB2A -20;
+    pos \uniFB21 \uniFB25 -20;
+    pos \uniFB21 \uniFB20 -20;
+    pos \uniFB21 \uni05E9 -20;
+    pos \uniFB21 \uni05E7 -20;
+    pos \uniFB21 \uni05E2 -20;
+    pos \uniFB21 \uni05DC -20;
+    pos \uniFB22 \finalkafsheva -30;
+    pos \uniFB22 \finalkafqamats -30;
+    pos \uniFB22 \uniFB4E -30;
+    pos \uniFB22 \uniFB4D -30;
+    pos \uniFB22 \uniFB4C -30;
+    pos \uniFB22 \uniFB4A -30;
+    pos \uniFB22 \uniFB44 -30;
+    pos \uniFB22 \uniFB43 -30;
+    pos \uniFB22 \uniFB41 -30;
+    pos \uniFB22 \uniFB3B -30;
+    pos \uniFB22 \uniFB38 -30;
+    pos \uniFB22 \uniFB34 -30;
+    pos \uniFB22 \uniFB28 -30;
+    pos \uniFB22 \uniFB26 -30;
+    pos \uniFB22 \uniFB24 -30;
+    pos \uniFB22 \uniFB23 -30;
+    pos \uniFB22 \uni05EA -30;
+    pos \uniFB22 \uni05E4 -30;
+    pos \uniFB22 \uni05E3 -30;
+    pos \uniFB22 \uni05E1 -30;
+    pos \uniFB22 \uni05DE -30;
+    pos \uniFB22 \uni05DD -30;
+    pos \uniFB22 \uni05DB -30;
+    pos \uniFB22 \uni05DA -30;
+    pos \uniFB22 \uni05D7 -30;
+    pos \uniFB22 \uni05D6 20;
+    pos \uniFB22 \uni05D4 -30;
+    pos \uniFB22 \uni05D2 -50;
+    pos \uniFB22 \uni05D1 -30;
+    pos \uniFB24 \alternativelamed -20;
+    pos \uniFB24 \lamedholam -20;
+    pos \uniFB24 \lamedholamdagesh -20;
+    pos \uniFB24 \uniFB49 -20;
+    pos \uniFB24 \uniFB47 -20;
+    pos \uniFB24 \uniFB3C -20;
+    pos \uniFB24 \uniFB2D -20;
+    pos \uniFB24 \uniFB2C -20;
+    pos \uniFB24 \uniFB2B -20;
+    pos \uniFB24 \uniFB2A -20;
+    pos \uniFB24 \uniFB25 -20;
+    pos \uniFB24 \uniFB20 -20;
+    pos \uniFB24 \uni05E9 -20;
+    pos \uniFB24 \uni05E7 -20;
+    pos \uniFB24 \uni05E2 -20;
+    pos \uniFB24 \uni05DC -20;
+    pos \uniFB25 \alternativelamed -10;
+    pos \uniFB25 \finalkafsheva -20;
+    pos \uniFB25 \finalkafqamats -20;
+    pos \uniFB25 \lamedholam -10;
+    pos \uniFB25 \lamedholamdagesh -10;
+    pos \uniFB25 \uniFB4E -20;
+    pos \uniFB25 \uniFB4D -20;
+    pos \uniFB25 \uniFB4C -20;
+    pos \uniFB25 \uniFB4A -20;
+    pos \uniFB25 \uniFB49 -10;
+    pos \uniFB25 \uniFB47 -10;
+    pos \uniFB25 \uniFB44 -20;
+    pos \uniFB25 \uniFB43 -20;
+    pos \uniFB25 \uniFB41 -20;
+    pos \uniFB25 \uniFB3C -10;
+    pos \uniFB25 \uniFB3B -20;
+    pos \uniFB25 \uniFB38 -20;
+    pos \uniFB25 \uniFB34 -20;
+    pos \uniFB25 \uniFB2D -10;
+    pos \uniFB25 \uniFB2C -10;
+    pos \uniFB25 \uniFB2B -10;
+    pos \uniFB25 \uniFB2A -10;
+    pos \uniFB25 \uniFB28 -20;
+    pos \uniFB25 \uniFB26 -20;
+    pos \uniFB25 \uniFB25 -10;
+    pos \uniFB25 \uniFB24 -20;
+    pos \uniFB25 \uniFB23 -20;
+    pos \uniFB25 \uniFB20 -10;
+    pos \uniFB25 \uni05EA -20;
+    pos \uniFB25 \uni05E9 -10;
+    pos \uniFB25 \uni05E7 -10;
+    pos \uniFB25 \uni05E4 -20;
+    pos \uniFB25 \uni05E3 -20;
+    pos \uniFB25 \uni05E2 -10;
+    pos \uniFB25 \uni05E1 -20;
+    pos \uniFB25 \uni05DE -20;
+    pos \uniFB25 \uni05DD -20;
+    pos \uniFB25 \uni05DC -10;
+    pos \uniFB25 \uni05DB -20;
+    pos \uniFB25 \uni05DA -20;
+    pos \uniFB25 \uni05D7 -20;
+    pos \uniFB25 \uni05D4 -20;
+    pos \uniFB25 \uni05D2 -20;
+    pos \uniFB25 \uni05D1 -20;
+    pos \uniFB27 \finalkafsheva -30;
+    pos \uniFB27 \finalkafqamats -30;
+    pos \uniFB27 \uniFB4E -30;
+    pos \uniFB27 \uniFB4D -30;
+    pos \uniFB27 \uniFB4C -30;
+    pos \uniFB27 \uniFB4A -30;
+    pos \uniFB27 \uniFB44 -30;
+    pos \uniFB27 \uniFB43 -30;
+    pos \uniFB27 \uniFB41 -30;
+    pos \uniFB27 \uniFB3B -30;
+    pos \uniFB27 \uniFB38 -30;
+    pos \uniFB27 \uniFB34 -30;
+    pos \uniFB27 \uniFB28 -30;
+    pos \uniFB27 \uniFB26 -30;
+    pos \uniFB27 \uniFB24 -30;
+    pos \uniFB27 \uniFB23 -30;
+    pos \uniFB27 \uni05EA -30;
+    pos \uniFB27 \uni05E4 -30;
+    pos \uniFB27 \uni05E3 -30;
+    pos \uniFB27 \uni05E1 -30;
+    pos \uniFB27 \uni05DE -30;
+    pos \uniFB27 \uni05DD -30;
+    pos \uniFB27 \uni05DB -30;
+    pos \uniFB27 \uni05DA -30;
+    pos \uniFB27 \uni05D7 -30;
+    pos \uniFB27 \uni05D6 20;
+    pos \uniFB27 \uni05D4 -30;
+    pos \uniFB27 \uni05D2 -50;
+    pos \uniFB27 \uni05D1 -30;
+    pos \uniFB28 \alternativelamed -20;
+    pos \uniFB28 \lamedholam -20;
+    pos \uniFB28 \lamedholamdagesh -20;
+    pos \uniFB28 \uniFB49 -20;
+    pos \uniFB28 \uniFB47 -20;
+    pos \uniFB28 \uniFB3C -20;
+    pos \uniFB28 \uniFB2D -20;
+    pos \uniFB28 \uniFB2C -20;
+    pos \uniFB28 \uniFB2B -20;
+    pos \uniFB28 \uniFB2A -20;
+    pos \uniFB28 \uniFB25 -20;
+    pos \uniFB28 \uniFB20 -20;
+    pos \uniFB28 \uni05E9 -20;
+    pos \uniFB28 \uni05E7 -20;
+    pos \uniFB28 \uni05E2 -20;
+    pos \uniFB28 \uni05DC -20;
+    pos \uniFB2A \uni05D2 -20;
+    pos \uniFB2B \uni05D2 -20;
+    pos \uniFB2C \uni05D2 -20;
+    pos \uniFB2D \uni05D2 -20;
+    pos \uniFB2E \alternativelamed -20;
+    pos \uniFB2E \lamedholam -20;
+    pos \uniFB2E \lamedholamdagesh -20;
+    pos \uniFB2E \uniFB49 -20;
+    pos \uniFB2E \uniFB47 -20;
+    pos \uniFB2E \uniFB3C -20;
+    pos \uniFB2E \uniFB2D -20;
+    pos \uniFB2E \uniFB2C -20;
+    pos \uniFB2E \uniFB2B -20;
+    pos \uniFB2E \uniFB2A -20;
+    pos \uniFB2E \uniFB25 -20;
+    pos \uniFB2E \uniFB20 -20;
+    pos \uniFB2E \uni05E9 -20;
+    pos \uniFB2E \uni05E7 -20;
+    pos \uniFB2E \uni05E2 -20;
+    pos \uniFB2E \uni05DC -20;
+    pos \uniFB2F \alternativelamed -20;
+    pos \uniFB2F \lamedholam -20;
+    pos \uniFB2F \lamedholamdagesh -20;
+    pos \uniFB2F \uniFB49 -20;
+    pos \uniFB2F \uniFB47 -20;
+    pos \uniFB2F \uniFB3C -20;
+    pos \uniFB2F \uniFB2D -20;
+    pos \uniFB2F \uniFB2C -20;
+    pos \uniFB2F \uniFB2B -20;
+    pos \uniFB2F \uniFB2A -20;
+    pos \uniFB2F \uniFB25 -20;
+    pos \uniFB2F \uniFB20 -20;
+    pos \uniFB2F \uni05E9 -20;
+    pos \uniFB2F \uni05E7 -20;
+    pos \uniFB2F \uni05E2 -20;
+    pos \uniFB2F \uni05DC -20;
+    pos \uniFB30 \alternativelamed -20;
+    pos \uniFB30 \lamedholam -20;
+    pos \uniFB30 \lamedholamdagesh -20;
+    pos \uniFB30 \uniFB49 -20;
+    pos \uniFB30 \uniFB47 -20;
+    pos \uniFB30 \uniFB3C -20;
+    pos \uniFB30 \uniFB2D -20;
+    pos \uniFB30 \uniFB2C -20;
+    pos \uniFB30 \uniFB2B -20;
+    pos \uniFB30 \uniFB2A -20;
+    pos \uniFB30 \uniFB25 -20;
+    pos \uniFB30 \uniFB20 -20;
+    pos \uniFB30 \uni05E9 -20;
+    pos \uniFB30 \uni05E7 -20;
+    pos \uniFB30 \uni05E2 -20;
+    pos \uniFB30 \uni05DC -20;
+    pos \uniFB31 \alternativelamed -20;
+    pos \uniFB31 \lamedholam -20;
+    pos \uniFB31 \lamedholamdagesh -20;
+    pos \uniFB31 \uniFB49 -20;
+    pos \uniFB31 \uniFB47 -20;
+    pos \uniFB31 \uniFB3C -20;
+    pos \uniFB31 \uniFB2D -20;
+    pos \uniFB31 \uniFB2C -20;
+    pos \uniFB31 \uniFB2B -20;
+    pos \uniFB31 \uniFB2A -20;
+    pos \uniFB31 \uniFB25 -20;
+    pos \uniFB31 \uniFB20 -20;
+    pos \uniFB31 \uni05E9 -20;
+    pos \uniFB31 \uni05E7 -20;
+    pos \uniFB31 \uni05E2 -20;
+    pos \uniFB31 \uni05DC -20;
+    pos \uniFB33 \finalkafsheva -30;
+    pos \uniFB33 \finalkafqamats -30;
+    pos \uniFB33 \uniFB4E -30;
+    pos \uniFB33 \uniFB4D -30;
+    pos \uniFB33 \uniFB4C -30;
+    pos \uniFB33 \uniFB4A -30;
+    pos \uniFB33 \uniFB44 -30;
+    pos \uniFB33 \uniFB43 -30;
+    pos \uniFB33 \uniFB41 -30;
+    pos \uniFB33 \uniFB3B -30;
+    pos \uniFB33 \uniFB38 -30;
+    pos \uniFB33 \uniFB34 -30;
+    pos \uniFB33 \uniFB28 -30;
+    pos \uniFB33 \uniFB26 -30;
+    pos \uniFB33 \uniFB24 -30;
+    pos \uniFB33 \uniFB23 -30;
+    pos \uniFB33 \uni05EA -30;
+    pos \uniFB33 \uni05E4 -30;
+    pos \uniFB33 \uni05E3 -30;
+    pos \uniFB33 \uni05E1 -30;
+    pos \uniFB33 \uni05DE -30;
+    pos \uniFB33 \uni05DD -30;
+    pos \uniFB33 \uni05DB -30;
+    pos \uniFB33 \uni05DA -30;
+    pos \uniFB33 \uni05D7 -30;
+    pos \uniFB33 \uni05D6 20;
+    pos \uniFB33 \uni05D4 -30;
+    pos \uniFB33 \uni05D2 -50;
+    pos \uniFB33 \uni05D1 -30;
+    pos \uniFB38 \uni05D2 -20;
+    pos \uniFB3A \finalkafsheva -30;
+    pos \uniFB3A \finalkafqamats -30;
+    pos \uniFB3A \uniFB4E -30;
+    pos \uniFB3A \uniFB4D -30;
+    pos \uniFB3A \uniFB4C -30;
+    pos \uniFB3A \uniFB4A -30;
+    pos \uniFB3A \uniFB44 -30;
+    pos \uniFB3A \uniFB43 -30;
+    pos \uniFB3A \uniFB41 -30;
+    pos \uniFB3A \uniFB3B -30;
+    pos \uniFB3A \uniFB38 -30;
+    pos \uniFB3A \uniFB34 -30;
+    pos \uniFB3A \uniFB28 -30;
+    pos \uniFB3A \uniFB26 -30;
+    pos \uniFB3A \uniFB24 -30;
+    pos \uniFB3A \uniFB23 -30;
+    pos \uniFB3A \uni05EA -30;
+    pos \uniFB3A \uni05E4 -30;
+    pos \uniFB3A \uni05E3 -30;
+    pos \uniFB3A \uni05E1 -30;
+    pos \uniFB3A \uni05DE -30;
+    pos \uniFB3A \uni05DD -30;
+    pos \uniFB3A \uni05DB -30;
+    pos \uniFB3A \uni05DA -30;
+    pos \uniFB3A \uni05D7 -30;
+    pos \uniFB3A \uni05D6 20;
+    pos \uniFB3A \uni05D4 -30;
+    pos \uniFB3A \uni05D2 -50;
+    pos \uniFB3A \uni05D1 -30;
+    pos \uniFB3C \alternativelamed -10;
+    pos \uniFB3C \finalkafsheva -20;
+    pos \uniFB3C \finalkafqamats -20;
+    pos \uniFB3C \lamedholam -10;
+    pos \uniFB3C \lamedholamdagesh -10;
+    pos \uniFB3C \uniFB4E -20;
+    pos \uniFB3C \uniFB4D -20;
+    pos \uniFB3C \uniFB4C -20;
+    pos \uniFB3C \uniFB4A -20;
+    pos \uniFB3C \uniFB49 -10;
+    pos \uniFB3C \uniFB47 -10;
+    pos \uniFB3C \uniFB44 -20;
+    pos \uniFB3C \uniFB43 -20;
+    pos \uniFB3C \uniFB41 -20;
+    pos \uniFB3C \uniFB3C -10;
+    pos \uniFB3C \uniFB3B -20;
+    pos \uniFB3C \uniFB38 -20;
+    pos \uniFB3C \uniFB34 -20;
+    pos \uniFB3C \uniFB2D -10;
+    pos \uniFB3C \uniFB2C -10;
+    pos \uniFB3C \uniFB2B -10;
+    pos \uniFB3C \uniFB2A -10;
+    pos \uniFB3C \uniFB28 -20;
+    pos \uniFB3C \uniFB26 -20;
+    pos \uniFB3C \uniFB25 -10;
+    pos \uniFB3C \uniFB24 -20;
+    pos \uniFB3C \uniFB23 -20;
+    pos \uniFB3C \uniFB20 -10;
+    pos \uniFB3C \uni05EA -20;
+    pos \uniFB3C \uni05E9 -10;
+    pos \uniFB3C \uni05E7 -10;
+    pos \uniFB3C \uni05E4 -20;
+    pos \uniFB3C \uni05E3 -20;
+    pos \uniFB3C \uni05E2 -10;
+    pos \uniFB3C \uni05E1 -20;
+    pos \uniFB3C \uni05DE -20;
+    pos \uniFB3C \uni05DD -20;
+    pos \uniFB3C \uni05DC -10;
+    pos \uniFB3C \uni05DB -20;
+    pos \uniFB3C \uni05DA -20;
+    pos \uniFB3C \uni05D7 -20;
+    pos \uniFB3C \uni05D4 -20;
+    pos \uniFB3C \uni05D2 -20;
+    pos \uniFB3C \uni05D1 -20;
+    pos \uniFB43 \alternativelamed -10;
+    pos \uniFB43 \finalkafsheva -20;
+    pos \uniFB43 \finalkafqamats -20;
+    pos \uniFB43 \lamedholam -10;
+    pos \uniFB43 \lamedholamdagesh -10;
+    pos \uniFB43 \uniFB4E -20;
+    pos \uniFB43 \uniFB4D -20;
+    pos \uniFB43 \uniFB4C -20;
+    pos \uniFB43 \uniFB4A -20;
+    pos \uniFB43 \uniFB49 -10;
+    pos \uniFB43 \uniFB47 -10;
+    pos \uniFB43 \uniFB44 -20;
+    pos \uniFB43 \uniFB43 -20;
+    pos \uniFB43 \uniFB41 -20;
+    pos \uniFB43 \uniFB3C -10;
+    pos \uniFB43 \uniFB3B -20;
+    pos \uniFB43 \uniFB38 -20;
+    pos \uniFB43 \uniFB34 -20;
+    pos \uniFB43 \uniFB2D -10;
+    pos \uniFB43 \uniFB2C -10;
+    pos \uniFB43 \uniFB2B -10;
+    pos \uniFB43 \uniFB2A -10;
+    pos \uniFB43 \uniFB28 -20;
+    pos \uniFB43 \uniFB26 -20;
+    pos \uniFB43 \uniFB25 -10;
+    pos \uniFB43 \uniFB24 -20;
+    pos \uniFB43 \uniFB23 -20;
+    pos \uniFB43 \uniFB20 -10;
+    pos \uniFB43 \uni05EA -20;
+    pos \uniFB43 \uni05E9 -10;
+    pos \uniFB43 \uni05E7 -10;
+    pos \uniFB43 \uni05E4 -20;
+    pos \uniFB43 \uni05E3 -20;
+    pos \uniFB43 \uni05E2 -10;
+    pos \uniFB43 \uni05E1 -20;
+    pos \uniFB43 \uni05DE -20;
+    pos \uniFB43 \uni05DD -20;
+    pos \uniFB43 \uni05DC -10;
+    pos \uniFB43 \uni05DB -20;
+    pos \uniFB43 \uni05DA -20;
+    pos \uniFB43 \uni05D7 -20;
+    pos \uniFB43 \uni05D4 -20;
+    pos \uniFB43 \uni05D2 -20;
+    pos \uniFB43 \uni05D1 -20;
+    pos \uniFB48 \finalkafsheva -30;
+    pos \uniFB48 \finalkafqamats -30;
+    pos \uniFB48 \uniFB4E -30;
+    pos \uniFB48 \uniFB4D -30;
+    pos \uniFB48 \uniFB4C -30;
+    pos \uniFB48 \uniFB4A -30;
+    pos \uniFB48 \uniFB44 -30;
+    pos \uniFB48 \uniFB43 -30;
+    pos \uniFB48 \uniFB41 -30;
+    pos \uniFB48 \uniFB3B -30;
+    pos \uniFB48 \uniFB38 -30;
+    pos \uniFB48 \uniFB34 -30;
+    pos \uniFB48 \uniFB28 -30;
+    pos \uniFB48 \uniFB26 -30;
+    pos \uniFB48 \uniFB24 -30;
+    pos \uniFB48 \uniFB23 -30;
+    pos \uniFB48 \uni05EA -30;
+    pos \uniFB48 \uni05E4 -30;
+    pos \uniFB48 \uni05E3 -30;
+    pos \uniFB48 \uni05E1 -30;
+    pos \uniFB48 \uni05DE -30;
+    pos \uniFB48 \uni05DD -30;
+    pos \uniFB48 \uni05DB -30;
+    pos \uniFB48 \uni05DA -30;
+    pos \uniFB48 \uni05D7 -30;
+    pos \uniFB48 \uni05D6 20;
+    pos \uniFB48 \uni05D4 -30;
+    pos \uniFB48 \uni05D2 -50;
+    pos \uniFB48 \uni05D1 -30;
+    pos \uniFB49 \uni05D2 -20;
+    pos \uniFB4A \alternativelamed -20;
+    pos \uniFB4A \lamedholam -20;
+    pos \uniFB4A \lamedholamdagesh -20;
+    pos \uniFB4A \uniFB49 -20;
+    pos \uniFB4A \uniFB47 -20;
+    pos \uniFB4A \uniFB3C -20;
+    pos \uniFB4A \uniFB2D -20;
+    pos \uniFB4A \uniFB2C -20;
+    pos \uniFB4A \uniFB2B -20;
+    pos \uniFB4A \uniFB2A -20;
+    pos \uniFB4A \uniFB25 -20;
+    pos \uniFB4A \uniFB20 -20;
+    pos \uniFB4A \uni05E9 -20;
+    pos \uniFB4A \uni05E7 -20;
+    pos \uniFB4A \uni05E2 -20;
+    pos \uniFB4A \uni05DC -20;
+    pos \uniFB4C \alternativelamed -20;
+    pos \uniFB4C \lamedholam -20;
+    pos \uniFB4C \lamedholamdagesh -20;
+    pos \uniFB4C \uniFB49 -20;
+    pos \uniFB4C \uniFB47 -20;
+    pos \uniFB4C \uniFB3C -20;
+    pos \uniFB4C \uniFB2D -20;
+    pos \uniFB4C \uniFB2C -20;
+    pos \uniFB4C \uniFB2B -20;
+    pos \uniFB4C \uniFB2A -20;
+    pos \uniFB4C \uniFB25 -20;
+    pos \uniFB4C \uniFB20 -20;
+    pos \uniFB4C \uni05E9 -20;
+    pos \uniFB4C \uni05E7 -20;
+    pos \uniFB4C \uni05E2 -20;
+    pos \uniFB4C \uni05DC -20;
+    pos \lamedholamdagesh \alternativelamed -10;
+    pos \lamedholamdagesh \finalkafsheva -20;
+    pos \lamedholamdagesh \finalkafqamats -20;
+    pos \lamedholamdagesh \lamedholam -10;
+    pos \lamedholamdagesh \lamedholamdagesh -10;
+    pos \lamedholamdagesh \uniFB4E -20;
+    pos \lamedholamdagesh \uniFB4D -20;
+    pos \lamedholamdagesh \uniFB4C -20;
+    pos \lamedholamdagesh \uniFB4A -20;
+    pos \lamedholamdagesh \uniFB49 -10;
+    pos \lamedholamdagesh \uniFB47 -10;
+    pos \lamedholamdagesh \uniFB44 -20;
+    pos \lamedholamdagesh \uniFB43 -20;
+    pos \lamedholamdagesh \uniFB41 -20;
+    pos \lamedholamdagesh \uniFB3C -10;
+    pos \lamedholamdagesh \uniFB3B -20;
+    pos \lamedholamdagesh \uniFB38 -20;
+    pos \lamedholamdagesh \uniFB34 -20;
+    pos \lamedholamdagesh \uniFB2D -10;
+    pos \lamedholamdagesh \uniFB2C -10;
+    pos \lamedholamdagesh \uniFB2B -10;
+    pos \lamedholamdagesh \uniFB2A -10;
+    pos \lamedholamdagesh \uniFB28 -20;
+    pos \lamedholamdagesh \uniFB26 -20;
+    pos \lamedholamdagesh \uniFB25 -10;
+    pos \lamedholamdagesh \uniFB24 -20;
+    pos \lamedholamdagesh \uniFB23 -20;
+    pos \lamedholamdagesh \uniFB20 -10;
+    pos \lamedholamdagesh \uni05EA -20;
+    pos \lamedholamdagesh \uni05E9 -10;
+    pos \lamedholamdagesh \uni05E7 -10;
+    pos \lamedholamdagesh \uni05E4 -20;
+    pos \lamedholamdagesh \uni05E3 -20;
+    pos \lamedholamdagesh \uni05E2 -10;
+    pos \lamedholamdagesh \uni05E1 -20;
+    pos \lamedholamdagesh \uni05DE -20;
+    pos \lamedholamdagesh \uni05DD -20;
+    pos \lamedholamdagesh \uni05DC -10;
+    pos \lamedholamdagesh \uni05DB -20;
+    pos \lamedholamdagesh \uni05DA -20;
+    pos \lamedholamdagesh \uni05D7 -20;
+    pos \lamedholamdagesh \uni05D4 -20;
+    pos \lamedholamdagesh \uni05D2 -20;
+    pos \lamedholamdagesh \uni05D1 -20;
+    pos \lamedholam \alternativelamed -10;
+    pos \lamedholam \finalkafsheva -20;
+    pos \lamedholam \finalkafqamats -20;
+    pos \lamedholam \lamedholam -10;
+    pos \lamedholam \lamedholamdagesh -10;
+    pos \lamedholam \uniFB4E -20;
+    pos \lamedholam \uniFB4D -20;
+    pos \lamedholam \uniFB4C -20;
+    pos \lamedholam \uniFB4A -20;
+    pos \lamedholam \uniFB49 -10;
+    pos \lamedholam \uniFB47 -10;
+    pos \lamedholam \uniFB44 -20;
+    pos \lamedholam \uniFB43 -20;
+    pos \lamedholam \uniFB41 -20;
+    pos \lamedholam \uniFB3C -10;
+    pos \lamedholam \uniFB3B -20;
+    pos \lamedholam \uniFB38 -20;
+    pos \lamedholam \uniFB34 -20;
+    pos \lamedholam \uniFB2D -10;
+    pos \lamedholam \uniFB2C -10;
+    pos \lamedholam \uniFB2B -10;
+    pos \lamedholam \uniFB2A -10;
+    pos \lamedholam \uniFB28 -20;
+    pos \lamedholam \uniFB26 -20;
+    pos \lamedholam \uniFB25 -10;
+    pos \lamedholam \uniFB24 -20;
+    pos \lamedholam \uniFB23 -20;
+    pos \lamedholam \uniFB20 -10;
+    pos \lamedholam \uni05EA -20;
+    pos \lamedholam \uni05E9 -10;
+    pos \lamedholam \uni05E7 -10;
+    pos \lamedholam \uni05E4 -20;
+    pos \lamedholam \uni05E3 -20;
+    pos \lamedholam \uni05E2 -10;
+    pos \lamedholam \uni05E1 -20;
+    pos \lamedholam \uni05DE -20;
+    pos \lamedholam \uni05DD -20;
+    pos \lamedholam \uni05DC -10;
+    pos \lamedholam \uni05DB -20;
+    pos \lamedholam \uni05DA -20;
+    pos \lamedholam \uni05D8 -10;
+    pos \lamedholam \uni05D7 -20;
+    pos \lamedholam \uni05D4 -20;
+    pos \lamedholam \uni05D2 -20;
+    pos \lamedholam \uni05D1 -20;
+    pos \finalkafqamats \finalkafsheva -30;
+    pos \finalkafqamats \finalkafqamats -30;
+    pos \finalkafqamats \uniFB4E -30;
+    pos \finalkafqamats \uniFB4D -30;
+    pos \finalkafqamats \uniFB4C -30;
+    pos \finalkafqamats \uniFB4A -30;
+    pos \finalkafqamats \uniFB44 -30;
+    pos \finalkafqamats \uniFB43 -30;
+    pos \finalkafqamats \uniFB41 -30;
+    pos \finalkafqamats \uniFB3B -30;
+    pos \finalkafqamats \uniFB38 -30;
+    pos \finalkafqamats \uniFB34 -30;
+    pos \finalkafqamats \uniFB28 -30;
+    pos \finalkafqamats \uniFB26 -30;
+    pos \finalkafqamats \uniFB24 -30;
+    pos \finalkafqamats \uniFB23 -30;
+    pos \finalkafqamats \uni05EA -30;
+    pos \finalkafqamats \uni05E4 -30;
+    pos \finalkafqamats \uni05E3 -30;
+    pos \finalkafqamats \uni05E1 -30;
+    pos \finalkafqamats \uni05DE -30;
+    pos \finalkafqamats \uni05DD -30;
+    pos \finalkafqamats \uni05DB -30;
+    pos \finalkafqamats \uni05DA -30;
+    pos \finalkafqamats \uni05D7 -30;
+    pos \finalkafqamats \uni05D6 20;
+    pos \finalkafqamats \uni05D4 -30;
+    pos \finalkafqamats \uni05D2 -50;
+    pos \finalkafqamats \uni05D1 -30;
+    pos \finalkafsheva \finalkafsheva -30;
+    pos \finalkafsheva \finalkafqamats -30;
+    pos \finalkafsheva \uniFB4E -30;
+    pos \finalkafsheva \uniFB4D -30;
+    pos \finalkafsheva \uniFB4C -30;
+    pos \finalkafsheva \uniFB4A -30;
+    pos \finalkafsheva \uniFB44 -30;
+    pos \finalkafsheva \uniFB43 -30;
+    pos \finalkafsheva \uniFB41 -30;
+    pos \finalkafsheva \uniFB3B -30;
+    pos \finalkafsheva \uniFB38 -30;
+    pos \finalkafsheva \uniFB34 -30;
+    pos \finalkafsheva \uniFB28 -30;
+    pos \finalkafsheva \uniFB26 -30;
+    pos \finalkafsheva \uniFB24 -30;
+    pos \finalkafsheva \uniFB23 -30;
+    pos \finalkafsheva \uni05EA -30;
+    pos \finalkafsheva \uni05E4 -30;
+    pos \finalkafsheva \uni05E3 -30;
+    pos \finalkafsheva \uni05E1 -30;
+    pos \finalkafsheva \uni05DE -30;
+    pos \finalkafsheva \uni05DD -30;
+    pos \finalkafsheva \uni05DB -30;
+    pos \finalkafsheva \uni05DA -30;
+    pos \finalkafsheva \uni05D7 -30;
+    pos \finalkafsheva \uni05D6 20;
+    pos \finalkafsheva \uni05D4 -30;
+    pos \finalkafsheva \uni05D2 -50;
+    pos \finalkafsheva \uni05D1 -30;
+    pos \alternativelamed \alternativelamed -10;
+    pos \alternativelamed \finalkafsheva -20;
+    pos \alternativelamed \finalkafqamats -20;
+    pos \alternativelamed \lamedholam -10;
+    pos \alternativelamed \lamedholamdagesh -10;
+    pos \alternativelamed \uniFB4E -20;
+    pos \alternativelamed \uniFB4D -20;
+    pos \alternativelamed \uniFB4C -20;
+    pos \alternativelamed \uniFB4A -20;
+    pos \alternativelamed \uniFB49 -10;
+    pos \alternativelamed \uniFB47 -10;
+    pos \alternativelamed \uniFB44 -20;
+    pos \alternativelamed \uniFB43 -20;
+    pos \alternativelamed \uniFB41 -20;
+    pos \alternativelamed \uniFB3C -10;
+    pos \alternativelamed \uniFB3B -20;
+    pos \alternativelamed \uniFB38 -20;
+    pos \alternativelamed \uniFB34 -20;
+    pos \alternativelamed \uniFB2D -10;
+    pos \alternativelamed \uniFB2C -10;
+    pos \alternativelamed \uniFB2B -10;
+    pos \alternativelamed \uniFB2A -10;
+    pos \alternativelamed \uniFB28 -20;
+    pos \alternativelamed \uniFB26 -20;
+    pos \alternativelamed \uniFB25 -10;
+    pos \alternativelamed \uniFB24 -20;
+    pos \alternativelamed \uniFB23 -20;
+    pos \alternativelamed \uniFB20 -10;
+    pos \alternativelamed \uni05EA -20;
+    pos \alternativelamed \uni05E9 -10;
+    pos \alternativelamed \uni05E7 -10;
+    pos \alternativelamed \uni05E4 -20;
+    pos \alternativelamed \uni05E3 -20;
+    pos \alternativelamed \uni05E2 -10;
+    pos \alternativelamed \uni05E1 -20;
+    pos \alternativelamed \uni05DE -20;
+    pos \alternativelamed \uni05DD -20;
+    pos \alternativelamed \uni05DC -10;
+    pos \alternativelamed \uni05DB -20;
+    pos \alternativelamed \uni05DA -20;
+    pos \alternativelamed \uni05D7 -20;
+    pos \alternativelamed \uni05D4 -20;
+    pos \alternativelamed \uni05D2 -20;
+    pos \alternativelamed \uni05D1 -20;
+    pos \alefdagesh \alternativelamed -20;
+    pos \alefdagesh \lamedholam -20;
+    pos \alefdagesh \lamedholamdagesh -20;
+    pos \alefdagesh \uniFB49 -20;
+    pos \alefdagesh \uniFB47 -20;
+    pos \alefdagesh \uniFB3C -20;
+    pos \alefdagesh \uniFB2D -20;
+    pos \alefdagesh \uniFB2C -20;
+    pos \alefdagesh \uniFB2B -20;
+    pos \alefdagesh \uniFB2A -20;
+    pos \alefdagesh \uniFB25 -20;
+    pos \alefdagesh \uniFB20 -20;
+    pos \alefdagesh \uni05E9 -20;
+    pos \alefdagesh \uni05E7 -20;
+    pos \alefdagesh \uni05E2 -20;
+    pos \alefdagesh \uni05DC -20;
+} kernHorizontalKerninglookup0;
+
+feature kern {
+
+ script cyrl;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+     language BGR  exclude_dflt;
+      lookup kernHorizontalKerninglookup0;
+     language MKD  exclude_dflt;
+      lookup kernHorizontalKerninglookup0;
+     language SRB  exclude_dflt;
+      lookup kernHorizontalKerninglookup0;
+
+ script grek;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+ script hebr;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\space \exclam \quotedbl \numbersign \dollar \percent \ampersand 
+	\quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen \period 
+	\slash \zero \one \two \three \four \five \six \seven \eight \nine \colon \semicolon 
+	\less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T 
+	\U \V \W \X \Y \Z \bracketleft \backslash \bracketright \asciicircum \underscore 
+	\grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \bar 
+	\braceright \asciitilde \uni00A0 \exclamdown \cent \sterling \currency \yen 
+	\brokenbar \section \dieresis \copyright \ordfeminine \guillemotleft 
+	\logicalnot \uni00AD \registered \macron \degree \plusminus \uni00B2 \uni00B3 
+	\acute \mu \paragraph \periodcentered \cedilla \uni00B9 \ordmasculine 
+	\guillemotright \onequarter \onehalf \threequarters \questiondown \Agrave 
+	\Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute 
+	\Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde 
+	\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave 
+	\Uacute \Ucircumflex \Udieresis \Yacute \Thorn \germandbls \agrave \aacute 
+	\acircumflex \atilde \adieresis \aring \ae \ccedilla \egrave \eacute 
+	\ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \eth \ntilde 
+	\ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute 
+	\ucircumflex \udieresis \yacute \thorn \ydieresis \Amacron \amacron \Abreve 
+	\abreve \Aogonek \aogonek \Cacute \cacute \Ccircumflex \ccircumflex \Cdotaccent 
+	\cdotaccent \Ccaron \ccaron \Dcaron \dcaron \Dcroat \dcroat \Emacron \emacron 
+	\Ebreve \ebreve \Edotaccent \edotaccent \Eogonek \eogonek \Ecaron \ecaron 
+	\Gcircumflex \gcircumflex \Gbreve \gbreve \Gdotaccent \gdotaccent 
+	\Gcommaaccent \gcommaaccent \Hcircumflex \hcircumflex \Hbar \hbar \Itilde 
+	\itilde \Imacron \imacron \Ibreve \ibreve \Iogonek \iogonek \Idotaccent 
+	\dotlessi \IJ \ij \Jcircumflex \jcircumflex \Kcommaaccent \kcommaaccent 
+	\kgreenlandic \Lacute \lacute \Lcommaaccent \lcommaaccent \Lcaron \lcaron \Ldot 
+	\ldot \Lslash \lslash \Nacute \nacute \Ncommaaccent \ncommaaccent \Ncaron 
+	\ncaron \napostrophe \Eng \eng \Omacron \omacron \Obreve \obreve \Ohungarumlaut 
+	\ohungarumlaut \OE \oe \Racute \racute \Rcommaaccent \rcommaaccent \Rcaron 
+	\rcaron \Sacute \sacute \Scircumflex \scircumflex \Scedilla \scedilla \Scaron 
+	\scaron \uni0162 \uni0163 \Tcaron \tcaron \Tbar \tbar \Utilde \utilde \Umacron 
+	\umacron \Ubreve \ubreve \Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek 
+	\uogonek \Wcircumflex \wcircumflex \Ycircumflex \ycircumflex \Ydieresis 
+	\Zacute \zacute \Zdotaccent \zdotaccent \Zcaron \zcaron \longs \uni0180 \uni0181 
+	\uni0182 \uni0183 \uni0184 \uni0185 \uni0186 \uni0187 \uni0188 \uni0189 \uni018A 
+	\uni018B \uni018C \uni018D \uni018E \uni018F \uni0190 \uni0191 \florin \uni0193 
+	\uni0194 \uni0195 \uni0196 \uni0197 \uni0198 \uni0199 \uni019A \uni019B \uni019C 
+	\uni019D \uni019E \uni019F \Ohorn \ohorn \uni01A2 \uni01A3 \uni01A4 \uni01A5 
+	\uni01A6 \uni01A7 \uni01A8 \uni01A9 \uni01AA \uni01AB \uni01AC \uni01AD \uni01AE 
+	\Uhorn \uhorn \uni01B1 \uni01B2 \uni01B3 \uni01B4 \uni01B5 \uni01B6 \uni01B7 
+	\uni01B8 \uni01B9 \uni01BA \uni01BB \uni01BC \uni01BD \uni01BE \uni01BF \uni01C0 
+	\uni01C1 \uni01C2 \uni01C3 \uni01C4 \uni01C5 \uni01C6 \uni01C7 \uni01C8 \uni01C9 
+	\uni01CA \uni01CB \uni01CC \uni01CD \uni01CE \uni01CF \uni01D0 \uni01D1 \uni01D2 
+	\uni01D3 \uni01D4 \uni01D5 \uni01D6 \uni01D7 \uni01D8 \uni01D9 \uni01DA \uni01DB 
+	\uni01DC \uni01DD \uni01DE \uni01DF \uni01E0 \uni01E1 \uni01E2 \uni01E3 \uni01E4 
+	\uni01E5 \Gcaron \gcaron \uni01E8 \uni01E9 \uni01EA \uni01EB \uni01EC \uni01ED 
+	\uni01EE \uni01EF \uni01F0 \uni01F1 \uni01F2 \uni01F3 \uni01F4 \uni01F5 \uni01F6 
+	\uni01F7 \uni01F8 \uni01F9 \Aringacute \aringacute \AEacute \aeacute 
+	\Oslashacute \oslashacute \uni0200 \uni0201 \uni0202 \uni0203 \uni0204 \uni0205 
+	\uni0206 \uni0207 \uni0208 \uni0209 \uni020A \uni020B \uni020C \uni020D \uni020E 
+	\uni020F \uni0210 \uni0211 \uni0212 \uni0213 \uni0214 \uni0215 \uni0216 \uni0217 
+	\Scommaaccent \scommaaccent \uni021A \uni021B \uni021C \uni021D \uni021E 
+	\uni021F \uni0220 \uni0221 \uni0222 \uni0223 \uni0224 \uni0225 \uni0226 \uni0227 
+	\uni0228 \uni0229 \uni022A \uni022B \uni022C \uni022D \uni022E \uni022F \uni0230 
+	\uni0231 \uni0232 \uni0233 \uni0234 \uni0235 \uni0236 \uni0237 \uni0238 \uni0239 
+	\uni023A \uni023B \uni023C \uni023D \uni023E \uni023F \uni0240 \uni0241 \uni0242 
+	\uni0243 \uni0244 \uni0245 \uni0246 \uni0247 \uni0248 \uni0249 \uni024A \uni024B 
+	\uni024C \uni024D \uni024E \uni024F \uni0250 \uni0251 \uni0252 \uni0253 \uni0254 
+	\uni0255 \uni0256 \uni0257 \uni0258 \uni0259 \uni025A \uni025B \uni025C \uni025D 
+	\uni025E \uni025F \uni0260 \uni0261 \uni0262 \uni0263 \uni0264 \uni0265 \uni0266 
+	\uni0267 \uni0268 \uni0269 \uni026A \uni026B \uni026C \uni026D \uni026E \uni026F 
+	\uni0270 \uni0271 \uni0272 \uni0273 \uni0274 \uni0275 \uni0276 \uni0277 \uni0278 
+	\uni0279 \uni027A \uni027B \uni027C \uni027D \uni027E \uni027F \uni0280 \uni0281 
+	\uni0282 \uni0283 \uni0284 \uni0285 \uni0286 \uni0287 \uni0288 \uni0289 \uni028A 
+	\uni028B \uni028C \uni028D \uni028E \uni028F \uni0290 \uni0291 \uni0292 \uni0293 
+	\uni0294 \uni0295 \uni0296 \uni0297 \uni0298 \uni0299 \uni029A \uni029B \uni029C 
+	\uni029D \uni029E \uni029F \uni02A0 \uni02A1 \uni02A2 \uni02A3 \uni02A4 \uni02A5 
+	\uni02A6 \uni02A7 \uni02A8 \uni02A9 \uni02AA \uni02AB \uni02AC \uni02AD \uni02AE 
+	\uni02AF \uni02B0 \uni02B1 \uni02B2 \uni02B3 \uni02B4 \uni02B5 \uni02B6 \uni02B7 
+	\uni02B8 \uni02B9 \uni02BA \uni02BB \uni02BC \uni02BD \uni02BE \uni02BF \uni02C0 
+	\uni02C1 \uni02C2 \uni02C3 \uni02C4 \uni02C5 \circumflex \caron \uni02C8 
+	\uni02C9 \uni02CA \uni02CB \uni02CC \uni02CD \uni02CE \uni02CF \uni02D0 \uni02D1 
+	\uni02D2 \uni02D3 \uni02D4 \uni02D5 \uni02D6 \uni02D7 \breve \dotaccent \ring 
+	\ogonek \tilde \hungarumlaut \uni02DE \uni02DF \uni02E0 \uni02E1 \uni02E2 
+	\uni02E3 \uni02E4 \uni02E5 \uni02E6 \uni02E7 \uni02E8 \uni02E9 \uni02EA \uni02EB 
+	\uni02EC \uni02ED \uni02EE \uni02EF \uni02F0 \uni02F1 \uni02F2 \uni02F3 \uni02F4 
+	\uni02F5 \uni02F6 \uni02F7 \uni02F8 \uni02F9 \uni02FA \uni02FB \uni02FC \uni02FD 
+	\uni02FE \uni02FF \gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 
+	\uni0306 \uni0307 \uni0308 \hookabovecomb \uni030A \uni030B \uni030C \uni030D 
+	\uni030E \uni030F \uni0310 \uni0311 \uni0312 \uni0313 \uni0314 \uni0315 \uni0316 
+	\uni0317 \uni0318 \uni0319 \uni031A \uni031B \uni031C \uni031D \uni031E \uni031F 
+	\uni0320 \uni0321 \uni0322 \dotbelowcomb \uni0324 \uni0325 \uni0326 \uni0327 
+	\uni0328 \uni0329 \uni032A \uni032B \uni032C \uni032D \uni032E \uni032F \uni0330 
+	\uni0331 \uni0332 \uni0333 \uni0334 \uni0335 \uni0336 \uni0337 \uni0338 \uni0339 
+	\uni033A \uni033B \uni033C \uni033D \uni033E \uni033F \uni0340 \uni0341 \uni0342 
+	\uni0343 \uni0344 \uni0345 \uni0346 \uni0347 \uni0348 \uni0349 \uni034A \uni034B 
+	\uni034C \uni034D \uni034E \uni034F \uni0350 \uni0351 \uni0352 \uni0353 \uni0354 
+	\uni0355 \uni0356 \uni0357 \uni0358 \uni0359 \uni035A \uni035B \uni035C \uni035D 
+	\uni035E \uni035F \uni0360 \uni0361 \uni0362 \uni0363 \uni0364 \uni0365 \uni0366 
+	\uni0367 \uni0368 \uni0369 \uni036A \uni036B \uni036C \uni036D \uni036E \uni036F 
+	\uni0374 \uni0375 \uni037A \uni037B \uni037C \uni037D \uni037E \tonos 
+	\dieresistonos \Alphatonos \anoteleia \Epsilontonos \Etatonos \Iotatonos 
+	\Omicrontonos \Upsilontonos \Omegatonos \iotadieresistonos \Alpha \Beta \Gamma 
+	\uni0394 \Epsilon \Zeta \Eta \Theta \Iota \Kappa \Lambda \Mu \Nu \Xi \Omicron \Pi 
+	\Rho \Sigma \Tau \Upsilon \Phi \Chi \Psi \uni03A9 \Iotadieresis \Upsilondieresis 
+	\alphatonos \epsilontonos \etatonos \iotatonos \upsilondieresistonos \alpha 
+	\beta \gamma \delta \epsilon \zeta \eta \theta \iota \kappa \lambda \uni03BC \nu \xi 
+	\omicron \pi \rho \sigma1 \sigma \tau \upsilon \phi \chi \psi \omega \iotadieresis 
+	\upsilondieresis \omicrontonos \upsilontonos \omegatonos \uni03D0 \theta1 
+	\Upsilon1 \uni03D3 \uni03D4 \phi1 \omega1 \uni03D7 \uni03D8 \uni03D9 \uni03DA 
+	\uni03DB \uni03DC \uni03DD \uni03DE \uni03DF \uni03E0 \uni03E1 \uni03E2 \uni03E3 
+	\uni03E4 \uni03E5 \uni03E6 \uni03E7 \uni03E8 \uni03E9 \uni03EA \uni03EB \uni03EC 
+	\uni03ED \uni03EE \uni03EF \uni03F0 \uni03F1 \uni03F2 \uni03F3 \uni03F4 \uni03F5 
+	\uni03F6 \uni03F7 \uni03F8 \uni03F9 \uni03FA \uni03FB \uni03FC \uni03FD \uni03FE 
+	\uni03FF \uni0400 \uni0401 \uni0402 \uni0403 \uni0404 \uni0405 \uni0406 \uni0407 
+	\uni0408 \uni0409 \uni040A \uni040B \uni040C \uni040D \uni040E \uni040F \uni0410 
+	\uni0411 \uni0412 \uni0413 \uni0414 \uni0415 \uni0416 \uni0417 \uni0418 \uni0419 
+	\uni041A \uni041B \uni041C \uni041D \uni041E \uni041F \uni0420 \uni0421 \uni0422 
+	\uni0423 \uni0424 \uni0425 \uni0426 \uni0427 \uni0428 \uni0429 \uni042A \uni042B 
+	\uni042C \uni042D \uni042E \uni042F \uni0430 \uni0431 \uni0432 \uni0433 \uni0434 
+	\uni0435 \uni0436 \uni0437 \uni0438 \uni0439 \uni043A \uni043B \uni043C \uni043D 
+	\uni043E \uni043F \uni0440 \uni0441 \uni0442 \uni0443 \uni0444 \uni0445 \uni0446 
+	\uni0447 \uni0448 \uni0449 \uni044A \uni044B \uni044C \uni044D \uni044E \uni044F 
+	\uni0450 \uni0451 \uni0452 \uni0453 \uni0454 \uni0455 \uni0456 \uni0457 \uni0458 
+	\uni0459 \uni045A \uni045B \uni045C \uni045D \uni045E \uni045F \uni0460 \uni0461 
+	\uni0462 \uni0463 \uni0464 \uni0465 \uni0466 \uni0467 \uni0468 \uni0469 \uni046A 
+	\uni046B \uni046C \uni046D \uni046E \uni046F \uni0470 \uni0471 \uni0472 \uni0473 
+	\uni0474 \uni0475 \uni0476 \uni0477 \uni0478 \uni0479 \uni047A \uni047B \uni047C 
+	\uni047D \uni047E \uni047F \uni0480 \uni0481 \uni0482 \uni0483 \uni0484 \uni0485 
+	\uni0486 \uni0487 \uni0488 \uni0489 \uni048A \uni048B \uni048C \uni048D \uni048E 
+	\uni048F \uni0490 \uni0491 \uni0492 \uni0493 \uni0494 \uni0495 \uni0496 \uni0497 
+	\uni0498 \uni0499 \uni049A \uni049B \uni049C \uni049D \uni049E \uni049F \uni04A0 
+	\uni04A1 \uni04A2 \uni04A3 \uni04A4 \uni04A5 \uni04A6 \uni04A7 \uni04A8 \uni04A9 
+	\uni04AA \uni04AB \uni04AC \uni04AD \uni04AE \uni04AF \uni04B0 \uni04B1 \uni04B2 
+	\uni04B3 \uni04B4 \uni04B5 \uni04B6 \uni04B7 \uni04B8 \uni04B9 \uni04BA \uni04BB 
+	\uni04BC \uni04BD \uni04BE \uni04BF \uni04C0 \uni04C1 \uni04C2 \uni04C3 \uni04C4 
+	\uni04C5 \uni04C6 \uni04C7 \uni04C8 \uni04C9 \uni04CA \uni04CB \uni04CC \uni04CD 
+	\uni04CE \uni04CF \uni04D0 \uni04D1 \uni04D2 \uni04D3 \uni04D4 \uni04D5 \uni04D6 
+	\uni04D7 \uni04D8 \uni04D9 \uni04DA \uni04DB \uni04DC \uni04DD \uni04DE \uni04DF 
+	\uni04E0 \uni04E1 \uni04E2 \uni04E3 \uni04E4 \uni04E5 \uni04E6 \uni04E7 \uni04E8 
+	\uni04E9 \uni04EA \uni04EB \uni04EC \uni04ED \uni04EE \uni04EF \uni04F0 \uni04F1 
+	\uni04F2 \uni04F3 \uni04F4 \uni04F5 \uni04F6 \uni04F7 \uni04F8 \uni04F9 \uni04FA 
+	\uni04FB \uni04FC \uni04FD \uni04FE \uni04FF \uni0500 \uni0501 \uni0502 \uni0503 
+	\uni0504 \uni0505 \uni0506 \uni0507 \uni0508 \uni0509 \uni050A \uni050B \uni050C 
+	\uni050D \uni050E \uni050F \uni0510 \uni0511 \uni0512 \uni0513 \uni051A \uni051B 
+	\uni051C \uni051D \uni0591 \uni0592 \uni0593 \uni0594 \uni0595 \uni0596 \uni0597 
+	\uni0598 \uni0599 \uni059A \uni059B \uni059C \uni059D \uni059E \uni059F \uni05A0 
+	\uni05A1 \uni05A2 \uni05A3 \uni05A4 \uni05A5 \uni05A6 \uni05A7 \uni05A8 \uni05A9 
+	\uni05AA \uni05AB \uni05AC \uni05AD \uni05AE \uni05AF \uni05B0 \uni05B1 \uni05B2 
+	\uni05B3 \uni05B4 \uni05B5 \uni05B6 \uni05B7 \uni05B8 \uni05B9 \uni05BA \uni05BB 
+	\uni05BC \uni05BD \uni05BE \uni05BF \uni05C0 \uni05C1 \uni05C2 \uni05C3 \uni05C4 
+	\uni05C5 \uni05C6 \uni05C7 \uni05D0 \uni05D1 \uni05D2 \uni05D3 \uni05D4 \uni05D5 
+	\uni05D6 \uni05D7 \uni05D8 \uni05D9 \uni05DA \uni05DB \uni05DC \uni05DD \uni05DE 
+	\uni05DF \uni05E0 \uni05E1 \uni05E2 \uni05E3 \uni05E4 \uni05E5 \uni05E6 \uni05E7 
+	\uni05E8 \uni05E9 \uni05EA \uni05F0 \uni05F1 \uni05F2 \uni05F3 \uni05F4 \uni1D00 
+	\uni1D01 \uni1D02 \uni1D03 \uni1D04 \uni1D05 \uni1D06 \uni1D07 \uni1D08 \uni1D09 
+	\uni1D0A \uni1D0B \uni1D0C \uni1D0D \uni1D0E \uni1D0F \uni1D10 \uni1D11 \uni1D12 
+	\uni1D13 \uni1D14 \uni1D15 \uni1D16 \uni1D17 \uni1D18 \uni1D19 \uni1D1A \uni1D1B 
+	\uni1D1C \uni1D1D \uni1D1E \uni1D1F \uni1D20 \uni1D21 \uni1D22 \uni1D23 \uni1D24 
+	\uni1D25 \uni1D26 \uni1D27 \uni1D28 \uni1D29 \uni1D2A \uni1D2B \uni1D2C \uni1D2D 
+	\uni1D2E \uni1D2F \uni1D30 \uni1D31 \uni1D32 \uni1D33 \uni1D34 \uni1D35 \uni1D36 
+	\uni1D37 \uni1D38 \uni1D39 \uni1D3A \uni1D3B \uni1D3C \uni1D3D \uni1D3E \uni1D3F 
+	\uni1D40 \uni1D41 \uni1D42 \uni1D43 \uni1D44 \uni1D45 \uni1D46 \uni1D47 \uni1D48 
+	\uni1D49 \uni1D4A \uni1D4B \uni1D4C \uni1D4D \uni1D4E \uni1D4F \uni1D50 \uni1D51 
+	\uni1D52 \uni1D53 \uni1D54 \uni1D55 \uni1D56 \uni1D57 \uni1D58 \uni1D59 \uni1D5A 
+	\uni1D5B \uni1D5C \uni1D5D \uni1D5E \uni1D5F \uni1D60 \uni1D61 \uni1D62 \uni1D63 
+	\uni1D64 \uni1D65 \uni1D66 \uni1D67 \uni1D68 \uni1D69 \uni1D6A \uni1D6B \uni1D6C 
+	\uni1D6D \uni1D6E \uni1D6F \uni1D70 \uni1D71 \uni1D72 \uni1D73 \uni1D74 \uni1D75 
+	\uni1D76 \uni1D77 \uni1D78 \uni1D79 \uni1D7A \uni1D7B \uni1D7C \uni1D7D \uni1D7E 
+	\uni1D7F \uni1D80 \uni1D81 \uni1D82 \uni1D83 \uni1D84 \uni1D85 \uni1D86 \uni1D87 
+	\uni1D88 \uni1D89 \uni1D8A \uni1D8B \uni1D8C \uni1D8D \uni1D8E \uni1D8F \uni1D90 
+	\uni1D91 \uni1D92 \uni1D93 \uni1D94 \uni1D95 \uni1D96 \uni1D97 \uni1D98 \uni1D99 
+	\uni1D9A \uni1D9B \uni1D9C \uni1D9D \uni1D9E \uni1D9F \uni1DA0 \uni1DA1 \uni1DA2 
+	\uni1DA3 \uni1DA4 \uni1DA5 \uni1DA6 \uni1DA7 \uni1DA8 \uni1DA9 \uni1DAA \uni1DAB 
+	\uni1DAC \uni1DAD \uni1DAE \uni1DAF \uni1DB0 \uni1DB1 \uni1DB2 \uni1DB3 \uni1DB4 
+	\uni1DB5 \uni1DB6 \uni1DB7 \uni1DB8 \uni1DB9 \uni1DBA \uni1DBB \uni1DBC \uni1DBD 
+	\uni1DBE \uni1DBF \uni1DC0 \uni1DC1 \uni1DC2 \uni1DC3 \uni1DC4 \uni1DC5 \uni1DC6 
+	\uni1DC7 \uni1DC8 \uni1DC9 \uni1DCA \uni1DFE \uni1DFF \uni1E00 \uni1E01 \uni1E02 
+	\uni1E03 \uni1E04 \uni1E05 \uni1E06 \uni1E07 \uni1E08 \uni1E09 \uni1E0A \uni1E0B 
+	\uni1E0C \uni1E0D \uni1E0E \uni1E0F \uni1E10 \uni1E11 \uni1E12 \uni1E13 \uni1E14 
+	\uni1E15 \uni1E16 \uni1E17 \uni1E18 \uni1E19 \uni1E1A \uni1E1B \uni1E1C \uni1E1D 
+	\uni1E1E \uni1E1F \uni1E20 \uni1E21 \uni1E22 \uni1E23 \uni1E24 \uni1E25 \uni1E26 
+	\uni1E27 \uni1E28 \uni1E29 \uni1E2A \uni1E2B \uni1E2C \uni1E2D \uni1E2E \uni1E2F 
+	\uni1E30 \uni1E31 \uni1E32 \uni1E33 \uni1E34 \uni1E35 \uni1E36 \uni1E37 \uni1E38 
+	\uni1E39 \uni1E3A \uni1E3B \uni1E3C \uni1E3D \uni1E3E \uni1E3F \uni1E40 \uni1E41 
+	\uni1E42 \uni1E43 \uni1E44 \uni1E45 \uni1E46 \uni1E47 \uni1E48 \uni1E49 \uni1E4A 
+	\uni1E4B \uni1E4C \uni1E4D \uni1E4E \uni1E4F \uni1E50 \uni1E51 \uni1E52 \uni1E53 
+	\uni1E54 \uni1E55 \uni1E56 \uni1E57 \uni1E58 \uni1E59 \uni1E5A \uni1E5B \uni1E5C 
+	\uni1E5D \uni1E5E \uni1E5F \uni1E60 \uni1E61 \uni1E62 \uni1E63 \uni1E64 \uni1E65 
+	\uni1E66 \uni1E67 \uni1E68 \uni1E69 \uni1E6A \uni1E6B \uni1E6C \uni1E6D \uni1E6E 
+	\uni1E6F \uni1E70 \uni1E71 \uni1E72 \uni1E73 \uni1E74 \uni1E75 \uni1E76 \uni1E77 
+	\uni1E78 \uni1E79 \uni1E7A \uni1E7B \uni1E7C \uni1E7D \uni1E7E \uni1E7F \Wgrave 
+	\wgrave \Wacute \wacute \Wdieresis \wdieresis \uni1E86 \uni1E87 \uni1E88 
+	\uni1E89 \uni1E8A \uni1E8B \uni1E8C \uni1E8D \uni1E8E \uni1E8F \uni1E90 \uni1E91 
+	\uni1E92 \uni1E93 \uni1E94 \uni1E95 \uni1E96 \uni1E97 \uni1E98 \uni1E99 \uni1E9A 
+	\uni1E9B \uni1E9E \uni1EA0 \uni1EA1 \uni1EA2 \uni1EA3 \uni1EA4 \uni1EA5 \uni1EA6 
+	\uni1EA7 \uni1EA8 \uni1EA9 \uni1EAA \uni1EAB \uni1EAC \uni1EAD \uni1EAE \uni1EAF 
+	\uni1EB0 \uni1EB1 \uni1EB2 \uni1EB3 \uni1EB4 \uni1EB5 \uni1EB6 \uni1EB7 \uni1EB8 
+	\uni1EB9 \uni1EBA \uni1EBB \uni1EBC \uni1EBD \uni1EBE \uni1EBF \uni1EC0 \uni1EC1 
+	\uni1EC2 \uni1EC3 \uni1EC4 \uni1EC5 \uni1EC6 \uni1EC7 \uni1EC8 \uni1EC9 \uni1ECA 
+	\uni1ECB \uni1ECC \uni1ECD \uni1ECE \uni1ECF \uni1ED0 \uni1ED1 \uni1ED2 \uni1ED3 
+	\uni1ED4 \uni1ED5 \uni1ED6 \uni1ED7 \uni1ED8 \uni1ED9 \uni1EDA \uni1EDB \uni1EDC 
+	\uni1EDD \uni1EDE \uni1EDF \uni1EE0 \uni1EE1 \uni1EE2 \uni1EE3 \uni1EE4 \uni1EE5 
+	\uni1EE6 \uni1EE7 \uni1EE8 \uni1EE9 \uni1EEA \uni1EEB \uni1EEC \uni1EED \uni1EEE 
+	\uni1EEF \uni1EF0 \uni1EF1 \Ygrave \ygrave \uni1EF4 \uni1EF5 \uni1EF6 \uni1EF7 
+	\uni1EF8 \uni1EF9 \uni1F00 \uni1F01 \uni1F02 \uni1F03 \uni1F04 \uni1F05 \uni1F06 
+	\uni1F07 \uni1F08 \uni1F09 \uni1F0A \uni1F0B \uni1F0C \uni1F0D \uni1F0E \uni1F0F 
+	\uni1F10 \uni1F11 \uni1F12 \uni1F13 \uni1F14 \uni1F15 \uni1F18 \uni1F19 \uni1F1A 
+	\uni1F1B \uni1F1C \uni1F1D \uni1F20 \uni1F21 \uni1F22 \uni1F23 \uni1F24 \uni1F25 
+	\uni1F26 \uni1F27 \uni1F28 \uni1F29 \uni1F2A \uni1F2B \uni1F2C \uni1F2D \uni1F2E 
+	\uni1F2F \uni1F30 \uni1F31 \uni1F32 \uni1F33 \uni1F34 \uni1F35 \uni1F36 \uni1F37 
+	\uni1F38 \uni1F39 \uni1F3A \uni1F3B \uni1F3C \uni1F3D \uni1F3E \uni1F3F \uni1F40 
+	\uni1F41 \uni1F42 \uni1F43 \uni1F44 \uni1F45 \uni1F48 \uni1F49 \uni1F4A \uni1F4B 
+	\uni1F4C \uni1F4D \uni1F50 \uni1F51 \uni1F52 \uni1F53 \uni1F54 \uni1F55 \uni1F56 
+	\uni1F57 \uni1F59 \uni1F5B \uni1F5D \uni1F5F \uni1F60 \uni1F61 \uni1F62 \uni1F63 
+	\uni1F64 \uni1F65 \uni1F66 \uni1F67 \uni1F68 \uni1F69 \uni1F6A \uni1F6B \uni1F6C 
+	\uni1F6D \uni1F6E \uni1F6F \uni1F70 \uni1F71 \uni1F72 \uni1F73 \uni1F74 \uni1F75 
+	\uni1F76 \uni1F77 \uni1F78 \uni1F79 \uni1F7A \uni1F7B \uni1F7C \uni1F7D \uni1F80 
+	\uni1F81 \uni1F82 \uni1F83 \uni1F84 \uni1F85 \uni1F86 \uni1F87 \uni1F88 \uni1F89 
+	\uni1F8A \uni1F8B \uni1F8C \uni1F8D \uni1F8E \uni1F8F \uni1F90 \uni1F91 \uni1F92 
+	\uni1F93 \uni1F94 \uni1F95 \uni1F96 \uni1F97 \uni1F98 \uni1F99 \uni1F9A \uni1F9B 
+	\uni1F9C \uni1F9D \uni1F9E \uni1F9F \uni1FA0 \uni1FA1 \uni1FA2 \uni1FA3 \uni1FA4 
+	\uni1FA5 \uni1FA6 \uni1FA7 \uni1FA8 \uni1FA9 \uni1FAA \uni1FAB \uni1FAC \uni1FAD 
+	\uni1FAE \uni1FAF \uni1FB0 \uni1FB1 \uni1FB2 \uni1FB3 \uni1FB4 \uni1FB6 \uni1FB7 
+	\uni1FB8 \uni1FB9 \uni1FBA \uni1FBB \uni1FBC \uni1FBD \uni1FBE \uni1FBF \uni1FC0 
+	\uni1FC1 \uni1FC2 \uni1FC3 \uni1FC4 \uni1FC6 \uni1FC7 \uni1FC8 \uni1FC9 \uni1FCA 
+	\uni1FCB \uni1FCC \uni1FCD \uni1FCE \uni1FCF \uni1FD0 \uni1FD1 \uni1FD2 \uni1FD3 
+	\uni1FD6 \uni1FD7 \uni1FD8 \uni1FD9 \uni1FDA \uni1FDB \uni1FDD \uni1FDE \uni1FDF 
+	\uni1FE0 \uni1FE1 \uni1FE2 \uni1FE3 \uni1FE4 \uni1FE5 \uni1FE6 \uni1FE7 \uni1FE8 
+	\uni1FE9 \uni1FEA \uni1FEB \uni1FEC \uni1FED \uni1FEE \uni1FEF \uni1FF2 \uni1FF3 
+	\uni1FF4 \uni1FF6 \uni1FF7 \uni1FF8 \uni1FF9 \uni1FFA \uni1FFB \uni1FFC \uni1FFD 
+	\uni1FFE \uni2000 \uni2001 \uni2002 \uni2003 \uni2004 \uni2005 \uni2006 \uni2007 
+	\uni2008 \uni2009 \uni200A \uni200B \uni200C \uni200D \uni200E \uni200F 
+	\figuredash \endash \emdash \uni2015 \uni2016 \underscoredbl \quoteleft 
+	\quoteright \quotesinglbase \quotereversed \quotedblleft \quotedblright 
+	\quotedblbase \uni201F \dagger \daggerdbl \bullet \ellipsis \uni202A \uni202B 
+	\uni202C \uni202D \uni202E \uni202F \perthousand \minute \second \uni2034 
+	\guilsinglleft \guilsinglright \exclamdbl \uni203E \fraction \uni205E \uni206A 
+	\uni206B \uni206C \uni206D \uni206E \uni206F \uni2074 \uni2075 \uni2077 \uni2078 
+	\uni207F \uni2090 \uni2091 \uni2092 \uni2093 \uni2094 \uni20A0 \colonmonetary 
+	\uni20A2 \franc \lira \uni20A5 \uni20A6 \peseta \uni20A8 \uni20A9 \uni20AA \dong 
+	\Euro \uni20AD \uni20AE \uni20AF \uni20B0 \uni20B1 \uni20B2 \uni20B3 \uni20B4 
+	\uni20B5 \uni20F0 \uni2105 \uni2113 \uni2116 \uni2117 \trademark \Omega 
+	\estimated \uni214D \uni214E \onethird \twothirds \oneeighth \threeeighths 
+	\fiveeighths \seveneighths \uni2184 \arrowleft \arrowup \arrowright \arrowdown 
+	\arrowboth \arrowupdn \arrowupdnbse \partialdiff \Delta \product \summation 
+	\minus \uni2215 \uni2219 \radical \infinity \orthogonal \intersection \integral 
+	\approxequal \notequal \equivalence \lessequal \greaterequal \house 
+	\revlogicalnot \integraltp \integralbt \SF100000 \SF110000 \SF010000 \SF030000 
+	\SF020000 \SF040000 \SF080000 \SF090000 \SF060000 \SF070000 \SF050000 \SF430000 
+	\SF240000 \SF510000 \SF520000 \SF390000 \SF220000 \SF210000 \SF250000 \SF500000 
+	\SF490000 \SF380000 \SF280000 \SF270000 \SF260000 \SF360000 \SF370000 \SF420000 
+	\SF190000 \SF200000 \SF230000 \SF470000 \SF480000 \SF410000 \SF450000 \SF460000 
+	\SF400000 \SF540000 \SF530000 \SF440000 \upblock \dnblock \block \lfblock 
+	\rtblock \ltshade \shade \dkshade \filledbox \H22073 \H18543 \H18551 \filledrect 
+	\triagup \triagrt \triagdn \triaglf \lozenge \circle \uni25CC \H18533 \invbullet 
+	\invcircle \openbullet \smileface \invsmileface \sun \female \male \spade \club 
+	\heart \diamond \musicalnote \musicalnotedbl \uni266F \uni2C60 \uni2C61 
+	\uni2C62 \uni2C63 \uni2C64 \uni2C65 \uni2C66 \uni2C67 \uni2C68 \uni2C69 \uni2C6A 
+	\uni2C6B \uni2C6C \uni2C6D \uni2C71 \uni2C72 \uni2C73 \uni2C74 \uni2C75 \uni2C76 
+	\uni2C77 \uni2E17 \uniA717 \uniA718 \uniA719 \uniA71A \uniA71B \uniA71C \uniA71D 
+	\uniA71E \uniA71F \uniA720 \uniA721 \uniA788 \uniA789 \uniA78A \uniA78B \uniA78C 
+	\uniFB01 \uniFB02 \uniFB1E \uniFB1F \uniFB20 \uniFB21 \uniFB22 \uniFB23 \uniFB24 
+	\uniFB25 \uniFB26 \uniFB27 \uniFB28 \uniFB29 \uniFB2F \uniFB30 \uniFB4C \uniFB4D 
+	\uniFB4E \uniFE20 \uniFE21 \uniFE22 \uniFE23 \uniFFFC \NULL \CR \uni0410.loclBGR 
+	\uni0411.loclBGR \uni0412.loclBGR \uni0413.loclBGR \uni0414.loclBGR 
+	\uni0415.loclBGR \uni0416.loclBGR \uni0417.loclBGR \uni0418.loclBGR 
+	\uni0419.loclBGR \uni041A.loclBGR \uni041B.loclBGR \uni041C.loclBGR 
+	\uni041D.loclBGR \uni041E.loclBGR \uni041F.loclBGR \uni0420.loclBGR 
+	\uni0421.loclBGR \uni0422.loclBGR \uni0423.loclBGR \uni0424.loclBGR 
+	\uni0425.loclBGR \uni0426.loclBGR \uni0427.loclBGR \uni0428.loclBGR 
+	\uni0429.loclBGR \uni042A.loclBGR \uni042B.loclBGR \uni042C.loclBGR 
+	\uni042D.loclBGR \uni042E.loclBGR \uni042F.loclBGR \uni0430.loclBGR 
+	\uni0431.loclBGR \uni0432.loclBGR \uni0433.loclBGR \uni0434.loclBGR 
+	\uni0435.loclBGR \uni0436.loclBGR \uni0437.loclBGR \uni0438.loclBGR 
+	\uni0439.loclBGR \uni043A.loclBGR \uni043B.loclBGR \uni043C.loclBGR 
+	\uni043D.loclBGR \uni043E.loclBGR \uni043F.loclBGR \uni0440.loclBGR 
+	\uni0441.loclBGR \uni0442.loclBGR \uni0443.loclBGR \uni0444.loclBGR 
+	\uni0445.loclBGR \uni0446.loclBGR \uni0447.loclBGR \uni0448.loclBGR 
+	\uni0449.loclBGR \uni044A.loclBGR \uni044B.loclBGR \uni044C.loclBGR 
+	\uni044D.loclBGR \uni044E.loclBGR \uni044F.loclBGR \uni045D.loclBGR 
+	\commaaccent \breve.cyr \caroncommaaccent \commaaccentrotate \grave.uc 
+	\acute.uc \circumflex.uc \caron.uc \dieresis.uc \tilde.uc \hungarumlaut.uc 
+	\breve.uc \grave.alt1 \grave.alt2 \grave.alt3 \acute.alt1 \acute.alt2 
+	\acute.alt3 \hookabove.alt1 \hookabove.alt2 \hookabove.alt3 \tilde.alt1 
+	\tilde.alt2 \breve.alt1 \circumflex.alt1 \dotbelow.alt1 \acute.alt4 
+	\acute.alt5 \grave.alt4 \grave.alt5 \hookabove.alt4 \hookabove.alt5 
+	\tilde.alt3 \tilde.alt4 \tilde.alt5 \tilde.alt6 \tilde.alt7 \tilde.alt8 
+	\dotbelow.alt2 \dotbelow.alt3 \dotbelow.alt4 \dotbelow.alt5 \dotbelow.alt6 
+	\tilde.alt9 \dotbelow.alt7 \dotbelow.alt8 \dotbelow.alt9 \dotbelow.alt10 
+	\dotbelow.alt11 \dotbelow.alt12 \dotbelow.alt13 \dotbelow.alt14 
+	\dotbelow.alt15 \tilde.alt10 \tilde.alt11 \tilde.alt12 \tilde.alt13 
+	\dotlessi.alt1 \uni03080304.cap \uni03080301.cap \uni0308030C.cap 
+	\uni03080300.cap \uni03070304.cap \uni03030304.cap \cyrillic_otmark 
+	\uni03040300.cap \uni03040301.cap \uni03030301.cap \uni03030308.cap 
+	\uni03010307.cap \uni030C0307.cap \uni03040308.cap \bari.dotless 
+	\uni03B1030403130300 \uni03B1030403130301 \uni03B1030403140300 
+	\uni03B1030403140301 \uni03B1030603130300 \uni03B1030603130301 
+	\uni03B1030603140300 \uni03B1030603140301 \uni03B9030403130300 
+	\uni03B9030403130301 \uni03B9030403140300 \uni03B9030403140301 
+	\uni03B9030603130300 \uni03B9030603130301 \uni03B9030603140300 
+	\uni03B9030603140301 \uni03C5030403130300 \uni03C5030403130301 
+	\uni03C5030403140300 \uni03C5030403140301 \uni03C5030603130300 
+	\uni03C5030603130301 \uni03C5030603140300 \uni03C5030603140301 
+	\uni03B9030803040300 \uni03B9030803040301 \uni03B9030803060300 
+	\uni03B9030803060301 \uni03C5030803040300 \uni03C5030803040301 
+	\uni03C5030803060300 \uni03C5030803060301 \dottediacute \Eng.alt1 \Eng.alt2 
+	\Eng.alt3 \zero.alt \one.alt \two.alt \three.alt \four.alt \five.alt \six.alt 
+	\seven.alt \eight.alt \nine.alt \circumflexacute \circumflexgrave 
+	\circumflexhook \circumflextilde \breveacute \brevegrave \brevehook 
+	\brevetilde \circumflexacute.lc \circumflexgrave.lc \circumflexhook.lc 
+	\circumflextilde.lc \breveacute.lc \brevegrave.lc \brevehook.lc 
+	\brevetilde.lc \uni1FEF.short \tonos.short \aleflamedhatafsegol 
+	\aleflamedsegol \aleflamedtsere \alternativelamed \uni0431.loclSRB ];
+@GDEF_Ligature = [\uniFB1D \uniFB2A \uniFB2B \uniFB2C \uniFB2D \uniFB2E \uniFB31 
+	\uniFB32 \uniFB33 \uniFB34 \uniFB35 \uniFB36 \uniFB38 \uniFB39 \uniFB3A \uniFB3B 
+	\uniFB3C \uniFB3E \uniFB40 \uniFB41 \uniFB43 \uniFB44 \uniFB46 \uniFB47 \uniFB48 
+	\uniFB49 \uniFB4A \uniFB4B \uniFB4F \uni02E502E502E6 \uni02E502E502E7 
+	\uni02E502E502E8 \uni02E502E502E9 \uni02E502E602E5 \uni02E502E602E6 
+	\uni02E502E602E7 \uni02E502E602E8 \uni02E502E602E9 \uni02E502E6 
+	\uni02E502E702E5 \uni02E502E702E6 \uni02E502E702E7 \uni02E502E702E8 
+	\uni02E502E702E9 \uni02E502E7 \uni02E502E802E5 \uni02E502E802E6 
+	\uni02E502E802E7 \uni02E502E802E8 \uni02E502E802E9 \uni02E502E8 
+	\uni02E502E902E5 \uni02E502E902E6 \uni02E502E902E7 \uni02E502E902E8 
+	\uni02E502E902E9 \uni02E502E9 \uni02E602E502E5 \uni02E602E502E6 
+	\uni02E602E502E7 \uni02E602E502E8 \uni02E602E502E9 \uni02E602E5 
+	\uni02E602E602E5 \uni02E602E602E7 \uni02E602E602E8 \uni02E602E602E9 
+	\uni02E602E702E5 \uni02E602E702E6 \uni02E602E702E7 \uni02E602E702E8 
+	\uni02E602E702E9 \uni02E602E7 \uni02E602E802E5 \uni02E602E802E6 
+	\uni02E602E802E7 \uni02E602E802E8 \uni02E602E802E9 \uni02E602E8 
+	\uni02E602E902E5 \uni02E602E902E6 \uni02E602E902E7 \uni02E602E902E8 
+	\uni02E602E902E9 \uni02E602E9 \uni02E702E502E5 \uni02E702E502E6 
+	\uni02E702E502E7 \uni02E702E502E8 \uni02E702E502E9 \uni02E702E5 
+	\uni02E702E602E5 \uni02E702E602E6 \uni02E702E602E7 \uni02E702E602E8 
+	\uni02E702E602E9 \uni02E702E6 \uni02E702E702E5 \uni02E702E702E6 
+	\uni02E702E702E8 \uni02E702E702E9 \uni02E702E802E5 \uni02E702E802E6 
+	\uni02E702E802E7 \uni02E702E802E8 \uni02E702E802E9 \uni02E702E8 
+	\uni02E702E902E5 \uni02E702E902E6 \uni02E702E902E7 \uni02E702E902E8 
+	\uni02E702E902E9 \uni02E702E9 \uni02E802E502E5 \uni02E802E502E6 
+	\uni02E802E502E7 \uni02E802E502E8 \uni02E802E502E9 \uni02E802E5 
+	\uni02E802E602E5 \uni02E802E602E6 \uni02E802E602E7 \uni02E802E602E8 
+	\uni02E802E602E9 \uni02E802E6 \uni02E802E702E5 \uni02E802E702E6 
+	\uni02E802E702E7 \uni02E802E702E8 \uni02E802E702E9 \uni02E802E7 
+	\uni02E802E802E5 \uni02E802E802E6 \uni02E802E802E7 \uni02E802E802E9 
+	\uni02E802E902E5 \uni02E802E902E6 \uni02E802E902E7 \uni02E802E902E8 
+	\uni02E802E902E9 \uni02E802E9 \uni02E902E502E5 \uni02E902E502E6 
+	\uni02E902E502E7 \uni02E902E502E8 \uni02E902E502E9 \uni02E902E5 
+	\uni02E902E602E5 \uni02E902E602E6 \uni02E902E602E7 \uni02E902E602E8 
+	\uni02E902E602E9 \uni02E902E6 \uni02E902E702E5 \uni02E902E702E6 
+	\uni02E902E702E7 \uni02E902E702E8 \uni02E902E702E9 \uni02E902E7 
+	\uni02E902E802E5 \uni02E902E802E6 \uni02E902E802E7 \uni02E902E802E8 
+	\uni02E902E802E9 \uni02E902E8 \uni02E902E902E5 \uni02E902E902E6 
+	\uni02E902E902E7 \uni02E902E902E8 \lamedholamdagesh \lamedholam 
+	\finalkafqamats \finalkafsheva \alefdagesh \uni05B105BD \uni05B205BD 
+	\uni05B305BD ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
+
+} GDEF;
+

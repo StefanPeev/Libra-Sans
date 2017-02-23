@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="heart" format="1">
+  <advance width="594"/>
+  <unicode hex="2665"/>
+  <outline>
+    <contour>
+      <point x="298" y="-11" type="curve"/>
+      <point x="291" y="17"/>
+      <point x="280" y="46"/>
+      <point x="265" y="75" type="curve" smooth="yes"/>
+      <point x="250" y="105"/>
+      <point x="214" y="158"/>
+      <point x="157" y="235" type="curve" smooth="yes"/>
+      <point x="113" y="295" type="line" smooth="yes"/>
+      <point x="64" y="360"/>
+      <point x="50" y="396"/>
+      <point x="50" y="439" type="curve" smooth="yes"/>
+      <point x="50" y="508"/>
+      <point x="102" y="558"/>
+      <point x="167" y="558" type="curve" smooth="yes"/>
+      <point x="223" y="558"/>
+      <point x="273" y="521"/>
+      <point x="298" y="444" type="curve"/>
+      <point x="319" y="521"/>
+      <point x="370" y="559"/>
+      <point x="427" y="559" type="curve" smooth="yes"/>
+      <point x="458" y="559"/>
+      <point x="486" y="548"/>
+      <point x="509" y="526" type="curve" smooth="yes"/>
+      <point x="532" y="504"/>
+      <point x="544" y="477"/>
+      <point x="544" y="445" type="curve" smooth="yes"/>
+      <point x="544" y="389"/>
+      <point x="519" y="332"/>
+      <point x="447" y="243" type="curve" smooth="yes"/>
+      <point x="401" y="185"/>
+      <point x="367" y="139"/>
+      <point x="346" y="104" type="curve" smooth="yes"/>
+      <point x="325" y="69"/>
+      <point x="309" y="31"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-11</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>50</integer>
+            <key>width</key>
+            <integer>494</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

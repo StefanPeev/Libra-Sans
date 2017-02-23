@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglleft" format="1">
+  <advance width="333"/>
+  <unicode hex="2039"/>
+  <outline>
+    <contour>
+      <point x="287" y="69" type="line"/>
+      <point x="171" y="69" type="line"/>
+      <point x="45" y="245" type="line"/>
+      <point x="45" y="280" type="line"/>
+      <point x="171" y="459" type="line"/>
+      <point x="286" y="459" type="line"/>
+      <point x="286" y="441" type="line"/>
+      <point x="162" y="262" type="line"/>
+      <point x="287" y="86" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>69</integer>
+            <key>width</key>
+            <integer>390</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>45</integer>
+            <key>width</key>
+            <integer>242</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

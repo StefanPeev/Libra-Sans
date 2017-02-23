@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commaaccent" format="1">
+  <advance width="333"/>
+  <outline>
+    <contour>
+      <point x="106" y="-222" type="curve"/>
+      <point x="39" y="-222" type="line"/>
+      <point x="76" y="-189"/>
+      <point x="96" y="-162"/>
+      <point x="101" y="-139" type="curve"/>
+      <point x="48" y="-139" type="line"/>
+      <point x="68" y="-38" type="line"/>
+      <point x="188" y="-38" type="line"/>
+      <point x="176" y="-100" type="line" smooth="yes"/>
+      <point x="167" y="-145"/>
+      <point x="150" y="-178"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-139</integer>
+            <key>width</key>
+            <integer>101</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>39</integer>
+            <key>width</key>
+            <integer>149</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotright" format="1">
+  <advance width="556"/>
+  <unicode hex="00BB"/>
+  <outline>
+    <contour>
+      <point x="516" y="247" type="line"/>
+      <point x="351" y="69" type="line"/>
+      <point x="269" y="69" type="line"/>
+      <point x="269" y="83" type="line"/>
+      <point x="434" y="262" type="line"/>
+      <point x="270" y="444" type="line"/>
+      <point x="270" y="459" type="line"/>
+      <point x="351" y="459" type="line"/>
+      <point x="516" y="278" type="line"/>
+    </contour>
+    <contour>
+      <point x="287" y="247" type="line"/>
+      <point x="124" y="69" type="line"/>
+      <point x="41" y="69" type="line"/>
+      <point x="41" y="83" type="line"/>
+      <point x="206" y="262" type="line"/>
+      <point x="42" y="444" type="line"/>
+      <point x="42" y="459" type="line"/>
+      <point x="124" y="459" type="line"/>
+      <point x="287" y="278" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>69</integer>
+            <key>width</key>
+            <integer>390</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>41</integer>
+            <key>width</key>
+            <integer>475</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

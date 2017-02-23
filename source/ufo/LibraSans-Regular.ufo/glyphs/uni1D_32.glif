@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1D32" format="1">
+  <advance width="410"/>
+  <unicode hex="1D32"/>
+  <outline>
+    <contour>
+      <point x="386" y="239" type="line"/>
+      <point x="16" y="239" type="line"/>
+      <point x="16" y="296" type="line"/>
+      <point x="317" y="296" type="line"/>
+      <point x="317" y="461" type="line"/>
+      <point x="49" y="461" type="line"/>
+      <point x="49" y="517" type="line"/>
+      <point x="317" y="517" type="line"/>
+      <point x="317" y="668" type="line"/>
+      <point x="29" y="668" type="line"/>
+      <point x="29" y="725" type="line"/>
+      <point x="386" y="725" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>239</integer>
+            <key>width</key>
+            <integer>57</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>461</integer>
+            <key>width</key>
+            <integer>56</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>668</integer>
+            <key>width</key>
+            <integer>57</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>317</integer>
+            <key>width</key>
+            <integer>69</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

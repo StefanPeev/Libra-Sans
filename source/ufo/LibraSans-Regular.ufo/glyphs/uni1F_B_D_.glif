@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1FBD" format="1">
+  <advance width="333"/>
+  <unicode hex="1FBD"/>
+  <outline>
+    <contour>
+      <point x="121" y="725" type="line"/>
+      <point x="218" y="725" type="line"/>
+      <point x="218" y="687" type="line" smooth="yes"/>
+      <point x="218" y="631"/>
+      <point x="210" y="600"/>
+      <point x="181" y="565" type="curve"/>
+      <point x="119" y="565" type="line"/>
+      <point x="148" y="598"/>
+      <point x="163" y="621"/>
+      <point x="163" y="644" type="curve"/>
+      <point x="121" y="644" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>644</integer>
+            <key>width</key>
+            <integer>81</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>121</integer>
+            <key>width</key>
+            <integer>97</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

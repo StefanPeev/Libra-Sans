@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Chi" format="1">
+  <advance width="667"/>
+  <unicode hex="03A7"/>
+  <outline>
+    <contour>
+      <point x="658" y="0" type="line"/>
+      <point x="507" y="0" type="line"/>
+      <point x="334" y="274" type="line"/>
+      <point x="161" y="0" type="line"/>
+      <point x="9" y="0" type="line"/>
+      <point x="247" y="362" type="line"/>
+      <point x="29" y="688" type="line"/>
+      <point x="181" y="688" type="line"/>
+      <point x="334" y="445" type="line"/>
+      <point x="487" y="688" type="line"/>
+      <point x="638" y="688" type="line"/>
+      <point x="429" y="362" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>668</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>9</integer>
+            <key>width</key>
+            <integer>649</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

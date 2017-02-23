@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexgrave.lc" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-154" y="769" type="line"/>
+      <point x="-103" y="682" type="line"/>
+      <point x="-103" y="677" type="line"/>
+      <point x="-149" y="677" type="line"/>
+      <point x="-260" y="763" type="line"/>
+      <point x="-260" y="769" type="line"/>
+    </contour>
+    <contour>
+      <point x="-159" y="596" type="line"/>
+      <point x="-50" y="728" type="line"/>
+      <point x="50" y="728" type="line"/>
+      <point x="159" y="596" type="line"/>
+      <point x="159" y="586" type="line"/>
+      <point x="108" y="586" type="line"/>
+      <point x="0" y="669" type="line"/>
+      <point x="-1" y="669" type="line"/>
+      <point x="-108" y="586" type="line"/>
+      <point x="-159" y="586" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>586</integer>
+            <key>width</key>
+            <integer>142</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>677</integer>
+            <key>width</key>
+            <integer>92</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-260</integer>
+            <key>width</key>
+            <integer>419</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

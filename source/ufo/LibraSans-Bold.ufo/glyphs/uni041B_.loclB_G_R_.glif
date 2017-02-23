@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni041B.loclBGR" format="1">
+  <advance width="665"/>
+  <outline>
+    <contour>
+      <point x="7" y="0" type="line"/>
+      <point x="260" y="688" type="line"/>
+      <point x="406" y="688" type="line"/>
+      <point x="660" y="0" type="line"/>
+      <point x="510" y="0" type="line"/>
+      <point x="368" y="442" type="line" smooth="yes"/>
+      <point x="359" y="471"/>
+      <point x="347" y="514"/>
+      <point x="332" y="572" type="curve"/>
+      <point x="322" y="530" type="line"/>
+      <point x="297" y="442" type="line"/>
+      <point x="156" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>572</integer>
+            <key>width</key>
+            <integer>116</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>668</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>7</integer>
+            <key>width</key>
+            <integer>653</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

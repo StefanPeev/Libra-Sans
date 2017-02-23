@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hookabove.alt3" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-327" y="813" type="curve" smooth="yes"/>
+      <point x="-327" y="833"/>
+      <point x="-345" y="845"/>
+      <point x="-373" y="845" type="curve" smooth="yes"/>
+      <point x="-396" y="845"/>
+      <point x="-419" y="841"/>
+      <point x="-442" y="833" type="curve"/>
+      <point x="-457" y="881" type="line"/>
+      <point x="-428" y="891"/>
+      <point x="-396" y="896"/>
+      <point x="-361" y="896" type="curve" smooth="yes"/>
+      <point x="-284" y="896"/>
+      <point x="-246" y="872"/>
+      <point x="-246" y="823" type="curve" smooth="yes"/>
+      <point x="-246" y="784"/>
+      <point x="-270" y="755"/>
+      <point x="-330" y="748" type="curve"/>
+      <point x="-330" y="723" type="line"/>
+      <point x="-384" y="723" type="line"/>
+      <point x="-384" y="782" type="line"/>
+      <point x="-340" y="783"/>
+      <point x="-327" y="793"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>723</integer>
+            <key>width</key>
+            <integer>59</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>845</integer>
+            <key>width</key>
+            <integer>51</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-384</integer>
+            <key>width</key>
+            <integer>54</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-327</integer>
+            <key>width</key>
+            <integer>81</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

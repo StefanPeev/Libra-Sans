@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0429.loclBGR" format="1">
+  <advance width="937"/>
+  <outline>
+    <contour>
+      <point x="812" y="78" type="line"/>
+      <point x="898" y="78" type="line"/>
+      <point x="898" y="-199" type="line"/>
+      <point x="810" y="-199" type="line"/>
+      <point x="810" y="0" type="line"/>
+      <point x="82" y="0" type="line"/>
+      <point x="82" y="688" type="line"/>
+      <point x="175" y="688" type="line"/>
+      <point x="175" y="78" type="line"/>
+      <point x="403" y="78" type="line"/>
+      <point x="403" y="688" type="line"/>
+      <point x="494" y="688" type="line"/>
+      <point x="494" y="78" type="line"/>
+      <point x="722" y="78" type="line"/>
+      <point x="722" y="688" type="line"/>
+      <point x="812" y="688" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>78</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>668</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>82</integer>
+            <key>width</key>
+            <integer>93</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>403</integer>
+            <key>width</key>
+            <integer>91</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>722</integer>
+            <key>width</key>
+            <integer>90</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>810</integer>
+            <key>width</key>
+            <integer>88</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

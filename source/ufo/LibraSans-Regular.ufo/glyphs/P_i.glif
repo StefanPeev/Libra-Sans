@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Pi" format="1">
+  <advance width="722"/>
+  <unicode hex="03A0"/>
+  <outline>
+    <contour>
+      <point x="641" y="0" type="line"/>
+      <point x="547" y="0" type="line"/>
+      <point x="547" y="609" type="line"/>
+      <point x="175" y="609" type="line"/>
+      <point x="175" y="0" type="line"/>
+      <point x="82" y="0" type="line"/>
+      <point x="82" y="688" type="line"/>
+      <point x="641" y="688" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>609</integer>
+            <key>width</key>
+            <integer>79</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>82</integer>
+            <key>width</key>
+            <integer>93</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>547</integer>
+            <key>width</key>
+            <integer>94</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

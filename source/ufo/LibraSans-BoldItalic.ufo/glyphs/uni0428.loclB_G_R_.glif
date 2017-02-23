@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0428.loclBGR" format="1">
+  <advance width="979"/>
+  <outline>
+    <contour>
+      <point x="862" y="0" type="line"/>
+      <point x="18" y="0" type="line"/>
+      <point x="151" y="688" type="line"/>
+      <point x="290" y="688" type="line"/>
+      <point x="180" y="119" type="line"/>
+      <point x="398" y="119" type="line"/>
+      <point x="509" y="688" type="line"/>
+      <point x="643" y="688" type="line"/>
+      <point x="533" y="119" type="line"/>
+      <point x="751" y="119" type="line"/>
+      <point x="862" y="688" type="line"/>
+      <point x="996" y="688" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>119</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>668</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>18</integer>
+            <key>width</key>
+            <integer>978</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

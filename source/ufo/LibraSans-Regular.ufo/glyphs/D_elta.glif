@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Delta" format="1">
+  <advance width="612"/>
+  <unicode hex="2206"/>
+  <outline>
+    <contour>
+      <point x="2" y="69" type="line"/>
+      <point x="255" y="688" type="line"/>
+      <point x="361" y="688" type="line"/>
+      <point x="610" y="69" type="line"/>
+      <point x="610" y="0" type="line"/>
+      <point x="2" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="101" y="76" type="line"/>
+      <point x="512" y="76" type="line"/>
+      <point x="347" y="497" type="line"/>
+      <point x="320" y="572" type="line"/>
+      <point x="307" y="618" type="line"/>
+      <point x="302" y="602" type="line" smooth="yes"/>
+      <point x="292" y="566"/>
+      <point x="280" y="531"/>
+      <point x="266" y="496" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>76</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>618</integer>
+            <key>width</key>
+            <integer>70</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>668</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>2</integer>
+            <key>width</key>
+            <integer>608</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

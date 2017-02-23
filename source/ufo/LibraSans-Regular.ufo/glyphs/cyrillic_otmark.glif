@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyrillic_otmark" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-223" y="688" type="line"/>
+      <point x="223" y="688" type="line"/>
+      <point x="179" y="593" type="line"/>
+      <point x="160" y="593" type="line"/>
+      <point x="137" y="642" type="line"/>
+      <point x="33" y="642" type="line"/>
+      <point x="10" y="593" type="line"/>
+      <point x="-10" y="593" type="line"/>
+      <point x="-33" y="642" type="line"/>
+      <point x="-137" y="642" type="line"/>
+      <point x="-160" y="593" type="line"/>
+      <point x="-179" y="593" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>642</integer>
+            <key>width</key>
+            <integer>46</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-223</integer>
+            <key>width</key>
+            <integer>446</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
