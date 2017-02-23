@@ -1,0 +1,23 @@
+* Feb 23 2017 Stefan Peev <context dot bg AT gmail dot com>
+- Issued version 1.002.
+- Impoved support for Cyrillic: local feature support for Serbian Cyrillic and Macedonian Cyrillic according to GF Cyrillic Plus standart.
+
+* Jan 31 2015 Stefan Peev <context dot bg AT gmail dot com>
+- Initial issue of the project - version 1.001.
+- Liberation Sans, according to SIL Open Font License, Version 1.1., is changed under the reserved font name Libra Sans, so that Libra Sans is a free-to-use non-commercial font derivated from Liberation Sans and released under the SIL Open Font License (OFL).
+- Impoved support for Cyrillic: local feature support for Bulgarian Cyrillic.
+
+* Thu Oct 04 2012 Pravin Satpute <psatpute AT redhat DOT com>
+- Resolved "Glyphs with multiple unicode encodings inhibit subsetting" #851790
+- Resolved #851791, #854601 and #851825
+- Following GASP table version as per Liberation old version. (Anti-aliasing disabled)
+- Added support for Serbian glyphs for wikipedia #657849
+- In Monospace fonts, isFixedPitch bit set via script for getting it recognized as Monospace in putty.exe
+
+* Fri Jul 06 2012 Pravin Satpute <psatpute AT redhat DOT com>
+- Initial version of Liberation fonts based on croscore fonts version 1.21.0
+- Converted TTF files into SFD files to be open source.
+- Update Copyright and License file
+- set fsType bit to 0, Installable Embedding is allowed.
+- Absolute value in HHeadAscent/Descent values for maintaining Metric compatibility.
+
