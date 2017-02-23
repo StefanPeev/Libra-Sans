@@ -22,4 +22,4 @@ Please read file "LICENSE" for details.
 
 Please read file "AUTHORS" for list of contributors.
 
-<img source="https://github.com/StefanPeev/Libra-Sans/blob/master/images/LibraSans_Bulgarian.jpg" />
+<img src="https://github.com/StefanPeev/Libra-Sans/blob/master/images/LibraSans_Bulgarian.jpg" />
