@@ -8,19 +8,19 @@ Libra Sans is a free-to-use non-commercial font released under the SIL Open Font
   
 
 
-## License
+### License
 
 This Font Software is licensed under the SIL Open Font License,
 Version 1.1.
 Please read file "LICENSE" for details.
 
 
-# Credits
+### Credits
 
 Please read file "AUTHORS" for list of contributors.
 
 
-# Examples
+### Examples
 
 <img src="https://raw.githubusercontent.com/StefanPeev/Libra-Sans/master/images/LibraSans_Russian.jpg" />
 
