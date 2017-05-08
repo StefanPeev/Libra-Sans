@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Etatonos" format="1">
+  <advance width="846"/>
+  <unicode hex="0389"/>
+  <outline>
+    <contour>
+      <point x="713" y="0" type="line"/>
+      <point x="623" y="0" type="line"/>
+      <point x="685" y="319" type="line"/>
+      <point x="310" y="319" type="line"/>
+      <point x="248" y="0" type="line"/>
+      <point x="155" y="0" type="line"/>
+      <point x="289" y="688" type="line"/>
+      <point x="382" y="688" type="line"/>
+      <point x="325" y="397" type="line"/>
+      <point x="700" y="397" type="line"/>
+      <point x="756" y="688" type="line"/>
+      <point x="847" y="688" type="line"/>
+    </contour>
+    <contour>
+      <point x="72" y="530" type="line"/>
+      <point x="36" y="530" type="line"/>
+      <point x="39" y="546" type="line"/>
+      <point x="100" y="688" type="line"/>
+      <point x="201" y="688" type="line"/>
+      <point x="198" y="670" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>319</integer>
+            <key>width</key>
+            <integer>78</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>530</integer>
+            <key>width</key>
+            <integer>158</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>36</integer>
+            <key>width</key>
+            <integer>811</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

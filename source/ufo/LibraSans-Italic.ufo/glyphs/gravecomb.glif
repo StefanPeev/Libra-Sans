@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb" format="1">
+  <advance width="0"/>
+  <unicode hex="0300"/>
+  <outline>
+    <contour>
+      <point x="-89" y="756" type="line"/>
+      <point x="-133" y="756" type="line"/>
+      <point x="-254" y="878" type="line"/>
+      <point x="-252" y="892" type="line"/>
+      <point x="-153" y="892" type="line"/>
+      <point x="-87" y="766" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>878</integer>
+            <key>width</key>
+            <integer>14</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-254</integer>
+            <key>width</key>
+            <integer>167</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

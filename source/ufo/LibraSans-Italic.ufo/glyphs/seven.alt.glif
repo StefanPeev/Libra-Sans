@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.alt" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-31" y="61" type="curve"/>
+      <point x="-113" y="61" type="line"/>
+      <point x="-104" y="110"/>
+      <point x="-84" y="157"/>
+      <point x="-54" y="204" type="curve" smooth="yes"/>
+      <point x="-25" y="251"/>
+      <point x="23" y="305"/>
+      <point x="88" y="366" type="curve"/>
+      <point x="-118" y="366" type="line"/>
+      <point x="-107" y="420" type="line"/>
+      <point x="177" y="420" type="line"/>
+      <point x="167" y="373" type="line"/>
+      <point x="105" y="317"/>
+      <point x="59" y="265"/>
+      <point x="29" y="217" type="curve" smooth="yes"/>
+      <point x="0" y="170"/>
+      <point x="-20" y="118"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>366</integer>
+            <key>width</key>
+            <integer>54</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-118</integer>
+            <key>width</key>
+            <integer>295</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

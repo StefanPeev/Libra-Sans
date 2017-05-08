@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pedagesh" format="1">
+  <advance width="610"/>
+  <unicode hex="FB44"/>
+  <outline>
+    <contour>
+      <point x="484" y="411" type="curve" smooth="yes"/>
+      <point x="484" y="484"/>
+      <point x="441" y="516"/>
+      <point x="346" y="516" type="curve" smooth="yes"/>
+      <point x="211" y="516" type="line"/>
+      <point x="178" y="347" type="line"/>
+      <point x="297" y="347" type="line"/>
+      <point x="281" y="264" type="line"/>
+      <point x="71" y="264" type="line"/>
+      <point x="136" y="599" type="line"/>
+      <point x="352" y="599" type="line" smooth="yes"/>
+      <point x="509" y="599"/>
+      <point x="578" y="539"/>
+      <point x="578" y="418" type="curve" smooth="yes"/>
+      <point x="578" y="387"/>
+      <point x="572" y="341"/>
+      <point x="560" y="280" type="curve" smooth="yes"/>
+      <point x="548" y="219"/>
+      <point x="527" y="167"/>
+      <point x="498" y="125" type="curve" smooth="yes"/>
+      <point x="439" y="42"/>
+      <point x="350" y="0"/>
+      <point x="230" y="0" type="curve" smooth="yes"/>
+      <point x="25" y="0" type="line"/>
+      <point x="41" y="83" type="line"/>
+      <point x="248" y="83" type="line" smooth="yes"/>
+      <point x="368" y="83"/>
+      <point x="436" y="149"/>
+      <point x="467" y="290" type="curve" smooth="yes"/>
+      <point x="476" y="333" type="line" smooth="yes"/>
+      <point x="481" y="360"/>
+      <point x="484" y="386"/>
+    </contour>
+    <contour>
+      <point x="267" y="432" type="curve" smooth="yes"/>
+      <point x="267" y="453"/>
+      <point x="285" y="470"/>
+      <point x="305" y="470" type="curve" smooth="yes"/>
+      <point x="328" y="470"/>
+      <point x="344" y="453"/>
+      <point x="344" y="432" type="curve" smooth="yes"/>
+      <point x="344" y="409"/>
+      <point x="328" y="393"/>
+      <point x="305" y="393" type="curve" smooth="yes"/>
+      <point x="285" y="393"/>
+      <point x="267" y="409"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>83</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>264</integer>
+            <key>width</key>
+            <integer>83</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>393</integer>
+            <key>width</key>
+            <integer>77</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>516</integer>
+            <key>width</key>
+            <integer>83</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>267</integer>
+            <key>width</key>
+            <integer>77</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>484</integer>
+            <key>width</key>
+            <integer>94</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

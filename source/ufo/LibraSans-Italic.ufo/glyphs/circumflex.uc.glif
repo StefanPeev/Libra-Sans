@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflex.uc" format="1">
+  <advance width="324"/>
+  <outline>
+    <contour>
+      <point x="333" y="874" type="line"/>
+      <point x="420" y="757" type="line"/>
+      <point x="418" y="747" type="line"/>
+      <point x="372" y="747" type="line"/>
+      <point x="278" y="815" type="line"/>
+      <point x="277" y="815" type="line"/>
+      <point x="150" y="747" type="line"/>
+      <point x="95" y="747" type="line"/>
+      <point x="97" y="757" type="line"/>
+      <point x="234" y="874" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>747</integer>
+            <key>width</key>
+            <integer>10</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>95</integer>
+            <key>width</key>
+            <integer>325</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

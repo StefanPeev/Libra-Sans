@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcaron" format="1">
+  <advance width="556"/>
+  <unicode hex="013D"/>
+  <outline>
+    <contour>
+      <point x="472" y="0" type="line"/>
+      <point x="31" y="0" type="line"/>
+      <point x="164" y="688" type="line"/>
+      <point x="257" y="688" type="line"/>
+      <point x="139" y="76" type="line"/>
+      <point x="486" y="76" type="line"/>
+    </contour>
+    <contour>
+      <point x="438" y="514" type="curve"/>
+      <point x="381" y="514" type="line"/>
+      <point x="418" y="547"/>
+      <point x="440" y="577"/>
+      <point x="445" y="606" type="curve"/>
+      <point x="402" y="606" type="line"/>
+      <point x="418" y="688" type="line"/>
+      <point x="513" y="688" type="line"/>
+      <point x="503" y="636" type="line" smooth="yes"/>
+      <point x="492" y="580"/>
+      <point x="470" y="545"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>76</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>606</integer>
+            <key>width</key>
+            <integer>82</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>31</integer>
+            <key>width</key>
+            <integer>482</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
