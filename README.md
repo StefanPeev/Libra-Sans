@@ -1,3 +1,5 @@
+![Sample Image](/images/LibraSans_01.jpg)
+
 # Libra-Sans
 Font Libra Sans with multilingual support for Cyrillic
 
