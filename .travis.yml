@@ -4,8 +4,6 @@ matrix:
     - os: linux
       dist: trusty
       sudo: false
-      language: python
-      python: 3.5
       env:
         - DISPLAY=:99.0
         - LIBOVERLAY_SCROLLBAR=0
