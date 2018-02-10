@@ -10,7 +10,7 @@ Libra Sans is a free-to-use non-commercial font released under the SIL Open Font
 
 ### Credits
 
-Please read file [AUTHORS](https://github.com/StefanPeev/Pliska/blob/master/AUTHORS.txt) for list of contributors.
+Please read file [AUTHORS](https://github.com/StefanPeev/Libra-Sans/blob/master/AUTHORS.txt) for list of contributors.
 
 ### Examples
 
